@@ -1,15 +1,48 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Tahoma";
 }
 
+.content{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 3px 0 9px 0;
+}
+.header-logo, .header-search, .header-social-networks, .header-basket{
+    display: inline-block;
+}
+
+.header-logo{
+    position: relative;
+    padding: 0 8px 0 20px;
+}
+
+.header-logo span{
+    position: absolute;
+    top: 5px;
+    left: 65px;
+    font-size: 14px;
+}
+
+.header-logo img{
+    position: relative;
+    top: 9px;
+}
+
+.header-search{
+    padding: 0 15px 0 10px;
+}
 
 
 
 .search {
     width: 470px;
     position: relative;
-    top: -25px;
+    top: -16px;
 }
 
 .search input {
@@ -17,12 +50,12 @@
 }
 
 .search .input {
+    font-size: 15px;
     width: 100%;
     padding: 8px 37px 12px 33px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 10px;
-    color: #555;
     outline: none;
 
     border: 1px solid #006633;
@@ -53,6 +86,110 @@
 input[type="search"] {
     -webkit-appearance: none;
 }
+
+.header-social-networks{
+    padding: 0 57px 0 14px;
+}
+.header-social-networks li{
+    display: inline-block;
+    width: 37px;
+}
+
+.header-basket{
+    position: relative;
+    top: -16px;
+    padding: 0 0 0 10px;
+    border: 1px solid #006633;
+    border-radius: 10px;
+}
+
+.header-basket-left{
+    display: inline-block;
+    padding: 12px 2px 12px 0;
+
+}
+.header-basket-right{
+    display: inline-block;
+    padding: 12px 19px 12px 23px;
+    background-color: #006633;
+    border-radius: 0 7px 7px 0;
+    color: white;
+}
+
+.header-nav{
+    background-color: #006633;
+    padding: 10px 0 10px 0;
+}
+
+.header-nav a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+.banner{
+    padding: 22px 0 0 0;
+}
+.banner-left{
+    display: inline-block;
+    width: 740px;
+    margin: 0 6px 0 0;
+}
+
+.banner-right{
+    position: relative;
+    display: inline-block;
+    width: 418px;
+    margin: 0 0 0 6px;
+}
+
+.banner-right-text{
+    position: absolute;
+    top: 25px;
+    left: 35px;
+
+}
+
+.banner-right-text span{
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.separator{
+    clear: both;
+    padding: 9px 0;
+}
+
+.separator-icon{
+    float: left;
+    background: url(separator-icon.png) no-repeat;
+}
+
+.name-of-section{
+    display: inline-block;
+    padding: 14px 20px 10px 40px;
+    color: #006633;
+}
+
+.separator-hr{
+    padding: 24px 0 0 0;
+}
+
+
+
+
+
 
 
 
