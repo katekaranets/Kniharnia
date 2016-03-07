@@ -183,11 +183,31 @@ input[type="search"] {
 }
 
 .separator-hr{
-    padding: 24px 0 0 0;
+    padding: 24px 0 24px 0;
 }
 
 
+.one-book{
+    display: inline-block;
+    margin-left: 31px;
+    width: 137px;
+}
 
+.one-book:first-child{
+    margin-left: 0;
+}
+
+.one-book img{
+
+}
+
+.author{
+
+}
+
+.name-of-book{
+
+}
 
 
 
