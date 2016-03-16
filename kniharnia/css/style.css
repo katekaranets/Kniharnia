@@ -187,8 +187,13 @@ input[type="search"] {
 }
 
 
+.books{
+
+}
+
 .one-book{
     display: inline-block;
+    vertical-align: top;
     margin-left: 31px;
     width: 137px;
 }
@@ -202,12 +207,148 @@ input[type="search"] {
 }
 
 .author{
-
+    font-size: 12px;
+    line-height: 2;
+    color: #006633;
+    font-family: "BlissPro";
 }
 
 .name-of-book{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.add{
+    display: inline-block;
+    background-color: #006633;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.add > a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-logo{
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+
+.footer-logo > img{
+    margin-right: 19px;
+}
+
+
+
+.footer-bg{
+    background-color: #006633;
 
 }
+
+.footer-nav{
+    position: relative;
+}
+
+.up-button{
+    text-align: center;
+}
+
+.up-button a{
+    position: absolute;
+    top: -20px;
+    left: 565px;
+}
+
+.footer-nav > ul{
+    padding: 15px 0 25px 0;
+}
+
+.footer-nav > ul > li{
+    display: inline-block;
+    vertical-align: top;
+    border-left: 2px solid #103b1d;
+    padding: 0 20px 0 35px;
+
+}
+
+.footer-nav > ul > li:first-child{
+    border-left: none;
+    padding-left: 0;
+}
+
+.footer-submenu{
+    padding: 8px 0;
+}
+
+.footer-submenu > li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.5;
+}
+
+.footer-submenu > li > a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-submenu-1{
+    margin: 0 42px 0 0;
+}
+.footer-submenu-2{
+    margin: 0px 82px 0 0;
+}
+.footer-submenu-3{
+    margin: 0 20px 0 0px;
+}
+
+.footer-submenu-3 > .footer-submenu{
+    padding-left: 43px;
+}
+
+
+.footer-info{
+    padding: 10px 0 0 0;
+}
+
+.footer-info > div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.documents{
+    width: 425px;
+    font-size: 12px;
+    font-family: "BlissPro";
+    color: rgb(153, 153, 153);
+    line-height: 1.167;
+}
+
+.pay{
+    width: 315px;
+    text-align: center;
+}
+
+.pay-logo > div{
+    display: inline-block;
+}
+
+.contacts{
+    float: right;
+    text-align: right;
+    font-size: 18px;
+    font-family: "BlissPro";
+    color: rgb(153, 153, 153);
+    line-height: 1;
+}
+
+.contacts p:nth-child(n+4){
+    font-size: 14px;
+}
+
+
 
 
 
