@@ -1,4 +1,4 @@
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 768px) and (max-width: 1179px) {
 
     @font-face {
         font-family: BlissPro;
@@ -20,8 +20,10 @@
     }
 
     .content {
-        width: 1180px;
+        width: 768px;
         margin: 0 auto;
+
+
     }
 
     .header {
@@ -34,7 +36,7 @@
 
     .header-logo {
         position: relative;
-        margin: 0 8px 0 20px;
+        margin: 0 0px 0 10px;
     }
 
     .header-logo span {
@@ -52,11 +54,11 @@
     }
 
     .header-search {
-        margin: 0 16px 0 12px;
+        margin: 0 0px 0 12px;
     }
 
     .search {
-        width: 470px;
+        width: 120px;
         position: relative;
         top: -16px;
     }
@@ -67,7 +69,7 @@
 
     .search .input {
         width: 100%;
-        padding: 6px 18px 11px 35px;
+        padding: 6px 18px 11px 10px;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         border-radius: 10px;
@@ -102,7 +104,7 @@
     }
 
     .header-social-networks {
-        margin: 0 50px 0 14px;
+        margin: 0 0px 0 14px;
     }
 
     .header-social-networks li {
@@ -167,21 +169,26 @@
 
     .banner-left {
         display: inline-block;
-        width: 740px;
+        width: 480px;
         margin: 0 6px 0 0;
+    }
+    .banner-left img{
+        width: 480px;
     }
 
     .banner-right {
         position: relative;
         display: inline-block;
-        width: 418px;
+        width: 272px;
         margin: 0 0 0 6px;
     }
-
+    .banner-right img{
+        width: 270px;
+    }
     .banner-right-text {
         position: absolute;
-        top: 26px;
-        left: 26px;
+        top: 15px;
+        left: 15px;
         line-height: 1;
     }
 
@@ -189,7 +196,7 @@
         display: block;
         text-transform: uppercase;
         color: white;
-        font-size: 36px;
+        font-size: 24px;
     }
 
     .separator {
@@ -217,13 +224,15 @@
 
     .books {
         margin-bottom: 6px;
+        max-height: 315px;
+        overflow: hidden;
     }
 
     .one-book {
         display: inline-block;
         vertical-align: top;
         margin: 0 0 10px 31px;
-        width: 137px;
+        width: 124px;
     }
     .one-book img{
         width: 129px;
@@ -261,11 +270,9 @@
         background-color: #006633;
         padding: 1px 6px 1px 8px;
     }
-
-    .add:hover {
-        box-shadow: 2px 2px 1px #103b1d;
+    .add:hover{
+        box-shadow: -2px -2px 1px white;
     }
-
     .add > a {
         text-decoration: none;
         color: white;
@@ -303,7 +310,7 @@
     .up-button a {
         position: absolute;
         top: -20px;
-        left: 565px;
+        left: 364px;
     }
 
     .footer-nav > ul {
@@ -314,7 +321,7 @@
         display: inline-block;
         vertical-align: top;
         border-left: 2px solid #103b1d;
-        padding: 0 15px 0 35px;
+        padding: 0 10px 0 10px;
     }
 
     .footer-nav > ul > li:first-child {
@@ -335,25 +342,14 @@
     .footer-submenu > li > a {
         text-decoration: none;
         color: white;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 1;
     }
 
-    .footer-submenu-1 {
-        margin: 0 42px 0 0;
+    .footer-submenu > li > a:hover {
+        text-shadow: 2px 2px 1px #103b1d;
     }
 
-    .footer-submenu-2 {
-        margin: 0px 82px 0 0;
-    }
-
-    .footer-submenu-3 {
-        margin: 0 20px 0 0px;
-    }
-
-    .footer-submenu-3 > .footer-submenu {
-        padding-left: 43px;
-    }
 
     .footer-info {
         padding: 10px 0 0 0;
@@ -365,7 +361,7 @@
     }
 
     .documents {
-        width: 425px;
+        width: 222px;
         color: rgb(153, 153, 153);
     }
 
@@ -395,6 +391,7 @@
         font-family: "BlissPro";
         color: rgb(153, 153, 153);
         line-height: 1;
+        width: 222px;
     }
 
     .contacts p:nth-child(n+4) {
@@ -402,4 +399,3 @@
     }
 
 }
-

@@ -1,4 +1,4 @@
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 600px) and (max-width: 767px) {
 
     @font-face {
         font-family: BlissPro;
@@ -20,12 +20,14 @@
     }
 
     .content {
-        width: 1180px;
+        width: 601px;
         margin: 0 auto;
+
+
     }
 
     .header {
-        padding: 3px 0 9px 0;
+        padding: 5px 0 0 0;
     }
 
     .header-logo, .header-search, .header-social-networks, .header-basket {
@@ -34,14 +36,14 @@
 
     .header-logo {
         position: relative;
-        margin: 0 8px 0 20px;
+        margin: 0 0px 0 10px;
     }
 
     .header-logo span {
         position: absolute;
-        top: 6px;
-        left: 46px;
-        font-size: 14px;
+        top: -6px;
+        left: 30px;
+        font-size: 11px;
         letter-spacing: 1.5px;
         font-family: "BlissProLight";
     }
@@ -49,16 +51,17 @@
     .header-logo img {
         position: relative;
         top: 9px;
+        width: 170px;
     }
 
     .header-search {
-        margin: 0 16px 0 12px;
+        margin: 0 0px 0 12px;
     }
 
     .search {
-        width: 470px;
+        width: 120px;
         position: relative;
-        top: -16px;
+        top: -13px;
     }
 
     .search input {
@@ -67,7 +70,7 @@
 
     .search .input {
         width: 100%;
-        padding: 6px 18px 11px 35px;
+        padding: 3px 18px 8px 10px;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         border-radius: 10px;
@@ -102,31 +105,35 @@
     }
 
     .header-social-networks {
-        margin: 0 50px 0 14px;
+        margin: 0 0px 0 10px;
     }
 
     .header-social-networks li {
         display: inline-block;
-        width: 37px;
+        width: 31px;
+    }
+
+    .header-social-networks img{
+        width: 31px;
     }
 
     .header-basket {
         position: relative;
-        top: -16px;
+        top: -12px;
         margin: 0 0 0 8px;
         border: 1px solid #103b1d;
         border-radius: 10px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .header-basket-left {
         display: inline-block;
-        padding: 6px 10px 6px 11px;
+        padding: 6px 0px 6px 5px;
     }
 
     .header-basket-right {
         display: inline-block;
-        padding: 12px 22px 12px 23px;
+        padding: 6px 15px 8px 5px;
         background-color: #006633;
         border-color: #103b1d;
         border-radius: 0 7px 7px 0;
@@ -139,12 +146,12 @@
 
     .header-nav {
         background-color: #006633;
-        padding: 5px 0;
+        padding: 3px 0;
     }
 
     .header-nav a {
         line-height: 1.6;
-        font-size: 20px;
+        font-size: 16px;
         color: white;
         text-decoration: none;
         text-transform: uppercase;
@@ -162,26 +169,32 @@
     }
 
     .banner {
-        padding: 22px 0 0 0;
+        padding: 5px 0 0 0;
     }
 
     .banner-left {
         display: inline-block;
-        width: 740px;
+        width: 353px;
         margin: 0 6px 0 0;
+
+    }
+    .banner-left img{
+        width: 353px;
     }
 
     .banner-right {
         position: relative;
         display: inline-block;
-        width: 418px;
+        width: 200px;
         margin: 0 0 0 6px;
     }
-
+    .banner-right img{
+        width: 200px;
+    }
     .banner-right-text {
         position: absolute;
-        top: 26px;
-        left: 26px;
+        top: 13px;
+        left: 13px;
         line-height: 1;
     }
 
@@ -189,12 +202,12 @@
         display: block;
         text-transform: uppercase;
         color: white;
-        font-size: 36px;
+        font-size: 17px;
     }
 
     .separator {
         clear: both;
-        padding: 9px 0;
+        padding: 0px 0;
     }
 
     .separator-icon {
@@ -206,7 +219,7 @@
         display: inline-block;
         padding: 14px 20px 10px 43px;
         color: #006633;
-        font-size: 17px;
+        font-size: 16px;
         letter-spacing: 1.1px;
         font-family: "BlissProBold";
     }
@@ -217,17 +230,20 @@
 
     .books {
         margin-bottom: 6px;
+        max-height: 270px;
+        overflow: hidden;
     }
 
     .one-book {
         display: inline-block;
         vertical-align: top;
-        margin: 0 0 10px 31px;
-        width: 137px;
+        margin: 0 0 10px 21px;
+        width: 95px;
     }
+
     .one-book img{
-        width: 129px;
-        height: 205px;
+        width: 90px;
+        height: 143px;
         overflow: hidden;
     }
     .one-book:first-child {
@@ -261,11 +277,9 @@
         background-color: #006633;
         padding: 1px 6px 1px 8px;
     }
-
-    .add:hover {
-        box-shadow: 2px 2px 1px #103b1d;
+    .add:hover{
+        box-shadow: -2px -2px 1px white;
     }
-
     .add > a {
         text-decoration: none;
         color: white;
@@ -276,12 +290,13 @@
     .footer-logo {
         text-align: center;
         padding: 8px 0 29px 0;
-        font-size: 22px;
+        font-size: 16px;
         font-family: "BlissProBold";
     }
 
     .footer-logo > img {
         margin-right: 19px;
+        width: 190px;
     }
 
     .footer-logo > p {
@@ -303,7 +318,7 @@
     .up-button a {
         position: absolute;
         top: -20px;
-        left: 565px;
+        left: 275px;
     }
 
     .footer-nav > ul {
@@ -314,12 +329,18 @@
         display: inline-block;
         vertical-align: top;
         border-left: 2px solid #103b1d;
-        padding: 0 15px 0 35px;
+        padding: 0 20px 0 30px;
     }
 
     .footer-nav > ul > li:first-child {
         border-left: none;
-        padding-left: 0;
+        padding: 0 40px 0 105px;
+    }
+
+    .footer-nav > ul > li.footer-submenu-3{
+        border-left: none;
+        /*padding: 0 20px 0 20px;*/
+        margin: 0 0 0 37px;
     }
 
     .footer-submenu {
@@ -335,25 +356,15 @@
     .footer-submenu > li > a {
         text-decoration: none;
         color: white;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 1;
     }
 
-    .footer-submenu-1 {
-        margin: 0 42px 0 0;
+    .footer-submenu > li > a:hover {
+        text-shadow: 2px 2px 1px #103b1d;
     }
 
-    .footer-submenu-2 {
-        margin: 0px 82px 0 0;
-    }
 
-    .footer-submenu-3 {
-        margin: 0 20px 0 0px;
-    }
-
-    .footer-submenu-3 > .footer-submenu {
-        padding-left: 43px;
-    }
 
     .footer-info {
         padding: 10px 0 0 0;
@@ -365,18 +376,18 @@
     }
 
     .documents {
-        width: 425px;
+        width: 222px;
         color: rgb(153, 153, 153);
     }
 
     .documents p {
         line-height: 1.167;
-        font-size: 12px;
+        font-size: 10px;
         font-family: "BlissPro";
     }
 
     .pay {
-        width: 315px;
+        width: 157px;
         text-align: center;
     }
 
@@ -391,10 +402,11 @@
     .contacts {
         float: right;
         text-align: right;
-        font-size: 18px;
+        font-size: 16px;
         font-family: "BlissPro";
         color: rgb(153, 153, 153);
         line-height: 1;
+        width: 206px;
     }
 
     .contacts p:nth-child(n+4) {
@@ -402,4 +414,3 @@
     }
 
 }
-
