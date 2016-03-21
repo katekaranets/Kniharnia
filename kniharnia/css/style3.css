@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) and (max-width: 767px) {
+@media screen and (min-width: 400px) and (max-width: 599px) {
 
 
 
@@ -22,7 +22,7 @@
     }
 
     .content {
-        width: 601px;
+        width: 400px;
         margin: 0 auto;
 
 
@@ -153,12 +153,12 @@
 
     .header-nav a {
         line-height: 1.6;
-        font-size: 16px;
+        font-size: 17px;
         color: white;
         text-decoration: none;
         text-transform: uppercase;
-        margin: 0 9px 0 0;
-        padding: 1px 0 1px 17px;
+        margin: 0 2px 0 0;
+        padding: 1px 0 1px 5px;
         border-left: 3px solid #103b1d;
     }
 
@@ -178,7 +178,7 @@
         display: inline-block;
         width: 353px;
         margin: 0 6px 0 8px;
-
+        display: none;
     }
     .banner-left img{
         width: 353px;
@@ -187,16 +187,16 @@
     .banner-right {
         position: relative;
         display: inline-block;
-        width: 200px;
+        width: 387px;
         margin: 0 0 0 6px;
     }
     .banner-right img{
-        width: 200px;
+        width: 387px;
     }
     .banner-right-text {
         position: absolute;
-        top: 13px;
-        left: 13px;
+        top: 26px;
+        left: 26px;
         line-height: 1;
     }
 
@@ -204,7 +204,7 @@
         display: block;
         text-transform: uppercase;
         color: white;
-        font-size: 17px;
+        font-size: 33px;
     }
 
     .separator {
@@ -232,24 +232,24 @@
 
     .books {
         margin-bottom: 6px;
-        max-height: 270px;
+        max-height: 285px;
         overflow: hidden;
     }
 
     .one-book {
         display: inline-block;
         vertical-align: top;
-        margin: 0 0 10px 21px;
-        width: 95px;
+        margin: 0 0 10px 25px;
+        width: 110px;
     }
 
     .one-book img{
-        width: 90px;
-        height: 143px;
+        width: 110px;
+        height: 175px;
         overflow: hidden;
     }
     .one-book:first-child {
-        margin-left: 10px;
+        margin-left: 7px;
     }
 
     .author {
@@ -320,7 +320,7 @@
     .up-button a {
         position: absolute;
         top: -20px;
-        left: 275px;
+        left: 185px;
     }
 
     .footer-nav > ul {
@@ -336,13 +336,12 @@
 
     .footer-nav > ul > li:first-child {
         border-left: none;
-        padding: 0 40px 0 105px;
+        padding: 0 20px 0 10px;
     }
 
     .footer-nav > ul > li.footer-submenu-3{
         border-left: none;
-        /*padding: 0 20px 0 20px;*/
-        margin: 0 0 0 37px;
+       
     }
 
     .footer-submenu {
