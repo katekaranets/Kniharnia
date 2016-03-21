@@ -30,6 +30,7 @@
 
     .header {
         padding: 5px 0 0 0;
+        position: relative;
     }
 
     .header-logo, .header-search, .header-social-networks, .header-basket {
@@ -38,7 +39,7 @@
 
     .header-logo {
         position: relative;
-        margin: 0 0px 0 10px;
+        margin: 0 0px 10px 10px;
     }
 
     .header-logo span {
@@ -58,10 +59,13 @@
 
     .header-search {
         margin: 0 0px 0 12px;
+        position: absolute;
+        top: 65px;
+        left: -5px;
     }
 
     .search {
-        width: 120px;
+        width: 228px;
         position: relative;
         top: -13px;
     }
@@ -108,6 +112,10 @@
 
     .header-social-networks {
         margin: 0 0px 0 10px;
+        position: relative;
+        top: 0px;
+        left: 100px;
+
     }
 
     .header-social-networks li {
@@ -121,7 +129,8 @@
 
     .header-basket {
         position: relative;
-        top: -12px;
+        top: -4px;
+        left: 250px;
         margin: 0 0 0 8px;
         border: 1px solid #103b1d;
         border-radius: 10px;
@@ -132,7 +141,10 @@
         display: inline-block;
         padding: 6px 0px 6px 5px;
     }
-
+    .header-basket-left a{
+        text-decoration: none;
+        color: black;
+    }
     .header-basket-right {
         display: inline-block;
         padding: 6px 15px 8px 5px;
@@ -145,6 +157,7 @@
         text-decoration: none;
         color: white;
     }
+
 
     .header-nav {
         background-color: #006633;
@@ -266,7 +279,7 @@
 
     .price {
         font-family: "BlissProBold";
-        font-size: 17px;
+
     }
 
     .currency {
@@ -331,21 +344,25 @@
         display: inline-block;
         vertical-align: top;
         border-left: 2px solid #103b1d;
-        padding: 0 20px 0 30px;
+        padding: 0 0 0 10px;
     }
 
     .footer-nav > ul > li:first-child {
         border-left: none;
-        padding: 0 20px 0 10px;
+        padding: 0 45px 0 10px;
     }
 
     .footer-nav > ul > li.footer-submenu-3{
         border-left: none;
-       
+
     }
 
     .footer-submenu {
         padding: 8px 0;
+    }
+
+    .footer-submenu-2 > ul > li:nth-child(3){
+        width: 165px;
     }
 
     .footer-submenu > li {
@@ -371,14 +388,10 @@
         padding: 10px 0 0 0;
     }
 
-    .footer-info > div {
-        display: inline-block;
-        vertical-align: top;
-    }
-
-    .documents {
+    .footer-info > .documents {
         width: 222px;
         color: rgb(153, 153, 153);
+        display: none;
     }
 
     .documents p {
@@ -388,7 +401,7 @@
     }
 
     .pay {
-        width: 157px;
+        width: 400px;
         text-align: center;
     }
 
@@ -402,16 +415,22 @@
 
     .contacts {
         float: right;
-        text-align: right;
+        text-align: center;
         font-size: 16px;
         font-family: "BlissPro";
         color: rgb(153, 153, 153);
         line-height: 1;
-        width: 206px;
+        width: 400px;
     }
 
     .contacts p:nth-child(n+4) {
         font-size: 12px;
     }
+
+
+    .footer-nav-for-big-screen{
+        display: none;
+    }
+
 
 }

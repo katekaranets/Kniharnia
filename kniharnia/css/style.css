@@ -40,7 +40,7 @@
     .header-logo span {
         position: absolute;
         top: 6px;
-        left: 46px;
+        left: 37px;
         font-size: 14px;
         letter-spacing: 1.5px;
         font-family: "BlissProLight";
@@ -132,6 +132,10 @@
         border-radius: 0 7px 7px 0;
     }
 
+    .header-basket-left a{
+        text-decoration: none;
+        color: black;
+    }
     .header-basket-right a {
         text-decoration: none;
         color: white;
@@ -248,7 +252,7 @@
 
     .price {
         font-family: "BlissProBold";
-        font-size: 17px;
+
     }
 
     .currency {
@@ -401,5 +405,8 @@
         font-size: 12px;
     }
 
+    .footer-nav-for-little-screen{
+        display: none;
+    }
 }
 

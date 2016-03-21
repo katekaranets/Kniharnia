@@ -1,6 +1,7 @@
-@media screen and (min-width: 768px) and (max-width: 1179px) {
+@media screen and (max-width: 399px) {
 
-   
+
+
     @font-face {
         font-family: BlissPro;
         src: url(fonts/BlissPro-Regular.otf);
@@ -21,14 +22,15 @@
     }
 
     .content {
-        width: 768px;
+        width: 320px;
         margin: 0 auto;
 
 
     }
 
     .header {
-        padding: 3px 0 9px 0;
+        padding: 5px 0 0 0;
+        position: relative;
     }
 
     .header-logo, .header-search, .header-social-networks, .header-basket {
@@ -37,14 +39,14 @@
 
     .header-logo {
         position: relative;
-        margin: 0 0px 0 10px;
+        margin: 0 0px 10px 10px;
     }
 
     .header-logo span {
         position: absolute;
-        top: 6px;
-        left: 37px;
-        font-size: 14px;
+        top: -6px;
+        left: 30px;
+        font-size: 11px;
         letter-spacing: 1.5px;
         font-family: "BlissProLight";
     }
@@ -52,16 +54,20 @@
     .header-logo img {
         position: relative;
         top: 9px;
+        width: 170px;
     }
 
     .header-search {
         margin: 0 0px 0 12px;
+        position: absolute;
+        top: 65px;
+        left: -5px;
     }
 
     .search {
-        width: 120px;
+        width: 165px;
         position: relative;
-        top: -16px;
+        top: -13px;
     }
 
     .search input {
@@ -70,7 +76,7 @@
 
     .search .input {
         width: 100%;
-        padding: 6px 18px 11px 10px;
+        padding: 3px 18px 8px 10px;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         border-radius: 10px;
@@ -105,35 +111,43 @@
     }
 
     .header-social-networks {
-        margin: 0 0px 0 14px;
+        margin: 0 0px 0 10px;
+        position: relative;
+        top: 0px;
+        left: 22px;
+
     }
 
     .header-social-networks li {
         display: inline-block;
-        width: 37px;
+        width: 31px;
+    }
+
+    .header-social-networks img{
+        width: 31px;
     }
 
     .header-basket {
         position: relative;
-        top: -16px;
+        top: -4px;
+        left: 172px;
         margin: 0 0 0 8px;
         border: 1px solid #103b1d;
         border-radius: 10px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .header-basket-left {
         display: inline-block;
-        padding: 6px 10px 6px 11px;
+        padding: 6px 0px 6px 5px;
     }
-
     .header-basket-left a{
         text-decoration: none;
         color: black;
     }
     .header-basket-right {
         display: inline-block;
-        padding: 12px 22px 12px 23px;
+        padding: 6px 15px 8px 5px;
         background-color: #006633;
         border-color: #103b1d;
         border-radius: 0 7px 7px 0;
@@ -146,17 +160,17 @@
 
     .header-nav {
         background-color: #006633;
-        padding: 5px 0;
+        padding: 3px 0;
     }
 
     .header-nav a {
         line-height: 1.6;
-        font-size: 20px;
+        font-size: 18px;
         color: white;
         text-decoration: none;
         text-transform: uppercase;
-        margin: 0 9px 0 0;
-        padding: 1px 0 1px 17px;
+        margin: 0 2px 0 0;
+        padding: 1px 0 1px 5px;
         border-left: 3px solid #103b1d;
     }
 
@@ -164,36 +178,42 @@
         border-left: none;
     }
 
+    .header-nav a:last-child {
+        display: none;
+    }
+
     .header-nav a:hover {
         text-shadow: 2px 2px 1px #103b1d;
     }
 
     .banner {
-        padding: 22px 0 0 0;
+        padding: 5px 0 0 0;
     }
 
     .banner-left {
         display: inline-block;
-        width: 480px;
-        margin: 0 6px 0 0;
+        width: 353px;
+        margin: 0 6px 0 8px;
+        display: none;
     }
     .banner-left img{
-        width: 480px;
+        width: 353px;
     }
 
     .banner-right {
         position: relative;
         display: inline-block;
-        width: 272px;
+        width: 310px;
         margin: 0 0 0 6px;
+
     }
     .banner-right img{
-        width: 270px;
+        width: 310px;
     }
     .banner-right-text {
         position: absolute;
-        top: 15px;
-        left: 15px;
+        top: 18px;
+        left: 18px;
         line-height: 1;
     }
 
@@ -201,12 +221,12 @@
         display: block;
         text-transform: uppercase;
         color: white;
-        font-size: 24px;
+        font-size: 27px;
     }
 
     .separator {
         clear: both;
-        padding: 9px 0;
+        padding: 0px 0;
     }
 
     .separator-icon {
@@ -218,7 +238,7 @@
         display: inline-block;
         padding: 14px 20px 10px 43px;
         color: #006633;
-        font-size: 17px;
+        font-size: 16px;
         letter-spacing: 1.1px;
         font-family: "BlissProBold";
     }
@@ -229,23 +249,24 @@
 
     .books {
         margin-bottom: 6px;
-        max-height: 315px;
+        max-height: 275px;
         overflow: hidden;
     }
 
     .one-book {
         display: inline-block;
         vertical-align: top;
-        margin: 0 0 10px 31px;
-        width: 124px;
+        margin: 0 0 10px 23px;
+        width: 85px;
     }
+
     .one-book img{
-        width: 129px;
-        height: 205px;
+        width: 85px;
+        height: 135px;
         overflow: hidden;
     }
     .one-book:first-child {
-        margin-left: 0;
+        margin-left: 7px;
     }
 
     .author {
@@ -288,12 +309,13 @@
     .footer-logo {
         text-align: center;
         padding: 8px 0 29px 0;
-        font-size: 22px;
+        font-size: 16px;
         font-family: "BlissProBold";
     }
 
     .footer-logo > img {
         margin-right: 19px;
+        width: 190px;
     }
 
     .footer-logo > p {
@@ -315,7 +337,7 @@
     .up-button a {
         position: absolute;
         top: -20px;
-        left: 364px;
+        left: 145px;
     }
 
     .footer-nav > ul {
@@ -326,16 +348,26 @@
         display: inline-block;
         vertical-align: top;
         border-left: 2px solid #103b1d;
-        padding: 0 10px 0 10px;
+        padding: 0 0 0 10px;
     }
 
     .footer-nav > ul > li:first-child {
         border-left: none;
-        padding-left: 0;
+        padding: 0 5px 0 9px;
+    }
+
+    .footer-nav > ul > li.footer-submenu-3{
+        border-left: none;
+
     }
 
     .footer-submenu {
         padding: 8px 0;
+        width: 145px;
+    }
+
+    .footer-submenu-2 > ul > li:nth-child(3){
+        width: 155px;
     }
 
     .footer-submenu > li {
@@ -351,9 +383,11 @@
         line-height: 1;
     }
 
+
     .footer-submenu > li > a:hover {
         text-shadow: 2px 2px 1px #103b1d;
     }
+
 
 
     .footer-info {
@@ -363,21 +397,23 @@
     .footer-info > div {
         display: inline-block;
         vertical-align: top;
+
     }
 
-    .documents {
+    .footer-info > .documents {
         width: 222px;
         color: rgb(153, 153, 153);
+        display: none;
     }
 
     .documents p {
         line-height: 1.167;
-        font-size: 12px;
+        font-size: 10px;
         font-family: "BlissPro";
     }
 
     .pay {
-        width: 315px;
+        width: 320px;
         text-align: center;
     }
 
@@ -391,20 +427,21 @@
 
     .contacts {
         float: right;
-        text-align: right;
-        font-size: 18px;
+        text-align: center;
+        font-size: 16px;
         font-family: "BlissPro";
         color: rgb(153, 153, 153);
         line-height: 1;
-        width: 222px;
+        width: 320px;
     }
 
     .contacts p:nth-child(n+4) {
         font-size: 12px;
     }
 
-    .footer-nav-for-little-screen{
+    .footer-nav-for-big-screen{
         display: none;
     }
 
+    .footer-nav > .footer-submenu-2 >
 }
