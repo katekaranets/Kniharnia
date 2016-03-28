@@ -113,30 +113,54 @@
         width: 37px;
     }
 
+    .search-down{
+        display: none;
+    }
+
+    .log-in{
+        display: none;
+    }
+
+    .log-out{
+        display: none;
+    }
+
+
+
     .header-basket {
         position: relative;
-        top: -16px;
+        top: -4px;
         margin: 0 0 0 8px;
         border: 1px solid #103b1d;
         border-radius: 10px;
         font-size: 16px;
+        width: 215px;
+
     }
 
     .header-basket-left {
         display: inline-block;
-        padding: 6px 10px 6px 11px;
+        padding: 0px 10px 0px 11px;
+        z-index: 40;
+        width: 90px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .header-basket-right {
+        display: inline-block;
+        width: 54px;
+        padding: 0px 22px 0px 24px;
+        background-color: #006633;
+        border-color: #103b1d;
+        border-radius: 0 7px 7px 0;
+        z-index: 40;
+        text-align: center;
     }
 
     .header-basket-left a{
         text-decoration: none;
         color: black;
-    }
-    .header-basket-right {
-        display: inline-block;
-        padding: 12px 22px 12px 23px;
-        background-color: #006633;
-        border-color: #103b1d;
-        border-radius: 0 7px 7px 0;
     }
 
     .header-basket-right a {
@@ -229,7 +253,7 @@
 
     .books {
         margin-bottom: 6px;
-        max-height: 315px;
+        max-height: 300px;
         overflow: hidden;
     }
 
@@ -238,6 +262,8 @@
         vertical-align: top;
         margin: 0 0 10px 31px;
         width: 124px;
+        height: 290px;
+        position: relative;
     }
     .one-book img{
         width: 129px;
@@ -262,18 +288,24 @@
 
     .price {
         font-family: "BlissProBold";
-
+        color: #006633;
+        font-size: 16px;
     }
 
     .currency {
-        font-size: 12px;
+        font-size: 10px;
         font-family: "BlissProLight";
+        color: black;
     }
-
+    .add-line{
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+    }
     .add {
         display: inline-block;
         background-color: #006633;
-        padding: 1px 6px 1px 8px;
+        padding: 1px 4px 1px 4px;
     }
     .add:hover{
         box-shadow: -2px -2px 1px white;
