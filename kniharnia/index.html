@@ -12,7 +12,134 @@
     <link href="css/style4.css" rel="stylesheet" media="only screen and (max-width:399px)">
     <style>
 
+        .header-search{
+            position: relative;
+        }
+        .search{
+            z-index: 45;
+        }
+        .search-down{
+            /*display: none;*/
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 468px;
+            padding: 25px 0 0 0;
+            border-radius: 10px;
+            border: 1px solid #006633;
+            background-color: white;
+            z-index: 30;
+        }
+        .search-down ul{
+            display: inline-block;
+            list-style: none;
+        }
+        .search-down span{
+            color: #12673e;
+            vertical-align: top;
+        }
 
+
+
+        .log-in {
+            /*display: none;*/
+            position: absolute;
+            top: 22px;
+            left: -1px;
+            padding: 25px 0 0 0;
+            border-radius: 0 0 10px 10px;
+            border: 1px solid #006633;
+            z-index: 30;
+            border-top: none;
+        }
+
+        .log-in  form{
+            background-color: white;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .log-in  a{
+            text-decoration: none;
+        }
+        .log-in  > form > a, .header-basket-down p{
+            font-size: 13px;
+            color: #12673e;
+        }
+
+        .log-in  ul{
+            margin: 0 auto;
+            width: 120px;
+        }
+        .log-in  li{
+            list-style: none;
+            display: inline-block;
+        }
+        .log-in  li img{
+            width: 27px;;
+        
+        }
+
+        .log-in input{
+            width: 150px;
+            padding: 2px 10px 2px 13px;
+            -moz-box-sizing: border-box;
+            border-radius: 10px;
+            margin: 3px 2px 3px 4px;
+            outline: none;
+            font-size: 15px;
+            border: 1px solid #006633;
+        }
+
+        .enter-button{
+            background-color: #006633;
+            width: 50px;
+            padding: 3px 8px 3px 4px;
+            margin: 3px auto;
+
+        }
+
+        .enter-button a{
+            color: white;
+        }
+
+        .log-out{
+            display: none;
+            position: absolute;
+            top: 22px;
+
+            left: -1px;
+            width: 100%;
+            padding: 25px 0 0 0;
+            border-radius: 0 0 10px 10px;
+            border: 1px solid #006633;
+            z-index: 30;
+            border-top: none;
+
+        }
+
+        .log-out > div{
+            background-color: white;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .log-out > div > div{
+            margin: 0 0 0 11px;
+        }
+        .log-out ul{
+            margin: 0 0 0 10px;
+        }
+        .log-out li{
+            list-style: none;
+        }
+
+        .log-out a, .log-out span{
+            color: #12673e;
+            text-decoration: none;
+        }
+
+        .log-out a:first-child{
+            font-size: 12px;
+        }
 
     </style>
 
@@ -30,6 +157,36 @@
                         <input type="search" placeholder="Пошук..." class="input" />
                         <input type="submit" class="submit" value="" />
                     </form>
+                    <div class="search-down">
+                        <table border="1">
+                            <tr>
+                                <th> <p>Станауленне беларускай гароднi, Андрэй Чарнякiвiч</p></th>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        <p>Станауленне беларускай гароднi, Андрэй Чарнякiвiч</p>
+                        <span>Аутар</span>
+                        <ul>
+                            <li>
+                                Александр Станюта
+                            </li>
+                            <li>
+                                Юры Станкевiч
+                            </li>
+                        </ul>
+                        <p><span>Тэгi</span> Стандарт</p>
+                    </div>
                 </div>
                 <div class="header-social-networks">
                     <ul>
@@ -40,12 +197,49 @@
                 </div>
                 <div class="header-basket">
                     <div class="header-basket-left">
-                        <a href="#"><span>Мая палiчка</span></a>
+                        <a href="#"><span><a href="#">Уваход</a>/<a href="#">Рэгiстрацыя</a></span></a>
                     </div>
                     <div class="header-basket-right">
-                        <a href="#"><span>5 кнiг</span></a>
+                        <a href="#">Кошык <span>4</span></a>
+                    </div>
+
+                    <div class="log-in">
+                        <form>
+                            <input class="e-mail" type="email" placeholder="E-mail">
+                            <input class="password" type="password" placeholder="Пароль">
+                            <a href="#">Рэгiстрацыя</a>/<a href="#">Успомнiць пароль</a>
+                            <div class="enter-button">
+                                <a href="#">Увайсцi</a>
+                            </div>
+                            <hr size="2" color="#006633">
+                            <p>Увайсцi праз сацыяльныя сеткi</p>
+                            <ul>
+                                <li><a href="#"><img class="fb" src="img/fb.png" alt="facebook"></a></li>
+                                <li><a href="#"><img src="img/vk.png" alt="vk"></a></li>
+                                <li><a href="#"><img src="img/twi.png" alt="twitter"></a></li>
+                                <li><a href="#"><img src="img/google.png" alt="google"></a></li>
+                            </ul>
+                        </form>
+                    </div>
+
+                    <div class="log-out">
+                        <div>
+                            <a href="#">mail@mail.ru</a>
+                            <p>Терехов Никита</p>
+                            <div>
+                                <span>Налады</span>
+                                <ul>
+                                    <li>Кошык</li>
+                                    <li>Палiчка</li>
+                                    <li>Архiу Праглядау</li>
+                                    <li>Гiсторыя заказау</li>
+                                </ul>
+                                <a href="#">Выйсцi</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
 
@@ -96,58 +290,71 @@
                     <img src="img/book-1.gif" alt="cover of book">
                     <p class="author">Людмiла Рублеуская</p>
                     <p class="name-of-book">Авантюры Прантиша</p>
-                    <span class="price">32700</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                   <div class="add-line">
+                        <span class="price">32700</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                   </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-2.gif" alt="cover of book">
                     <p class="author">Уклад. Ганна Янкута</p>
                     <p class="name-of-book">Ён прыходзiу з дажджом</p>
-                    <span class="price">65700</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
-
+                    <div class="add-line">
+                        <span class="price">65700</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-3.png" alt="cover of book">
                     <p class="author">Уклад. Ганна Янкута</p>
                     <p class="name-of-book">Зоркi над вельдами</p>
-                    <span class="price">65700</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">65700</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-4.gif" alt="cover of book">
                     <p class="author">Людмiла Рублеуская</p>
                     <p class="name-of-book">Авантюры Пранцiша</p>
-                    <span class="price">50300</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">50300</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-5.gif" alt="cover of book">
                     <p class="author">Альгерд Бахарэвiч</p>
                     <p class="name-of-book">Шабаны</p>
-                    <span class="price">41700</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">41700</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-6.gif" alt="cover of book">
                     <p class="author">Артур Конан Дойл</p>
                     <p class="name-of-book">Прыгоды Шэрлака</p>
-                    <span class="price">52200</span>
-                    <span class="currency">руб.</span>
-                   <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">52200</span>
+                        <span class="currency">руб.</span>
+                       <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-7.gif" alt="cover of book">
                     <p class="author">Кацярына Ваданосава</p>
                     <p class="name-of-book">Мiфатворчасць</p>
-                    <span class="price">26900</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">26900</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -167,58 +374,71 @@
                     <img src="img/book-1.gif" alt="cover of book">
                     <p class="author">Людмiла Рублеуская</p>
                     <p class="name-of-book">Авантюры Прантиша</p>
-                    <span class="price">32700</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">32700</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-2.gif" alt="cover of book">
                     <p class="author">Уклад. Ганна Янкута</p>
                     <p class="name-of-book">Ён прыходзiу з дажджом</p>
-                    <span class="price">65700</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
-
+                    <div class="add-line">
+                        <span class="price">65700</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-3.png" alt="cover of book">
                     <p class="author">Уклад. Ганна Янкута</p>
                     <p class="name-of-book">Зоркi над вельдами</p>
-                    <span class="price">65700</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">65700</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-4.gif" alt="cover of book">
                     <p class="author">Людмiла Рублеуская</p>
                     <p class="name-of-book">Авантюры Пранцiша</p>
-                    <span class="price">50300</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">50300</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-5.gif" alt="cover of book">
                     <p class="author">Альгерд Бахарэвiч</p>
                     <p class="name-of-book">Шабаны</p>
-                    <span class="price">41700</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">41700</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-6.gif" alt="cover of book">
                     <p class="author">Артур Конан Дойл</p>
                     <p class="name-of-book">Прыгоды Шэрлака</p>
-                    <span class="price">52200</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">52200</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-7.gif" alt="cover of book">
                     <p class="author">Кацярына Ваданосава</p>
                     <p class="name-of-book">Мiфатворчасць</p>
-                    <span class="price">26900</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">26900</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -238,58 +458,71 @@
                     <img src="img/book-1.gif" alt="cover of book">
                     <p class="author">Людмiла Рублеуская</p>
                     <p class="name-of-book">Авантюры Прантиша</p>
-                    <span class="price">32700</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">32700</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-2.gif" alt="cover of book">
                     <p class="author">Уклад. Ганна Янкута</p>
                     <p class="name-of-book">Ён прыходзiу з дажджом</p>
-                    <span class="price">65700</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
-
+                    <div class="add-line">
+                        <span class="price">65700</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-3.png" alt="cover of book">
                     <p class="author">Уклад. Ганна Янкута</p>
                     <p class="name-of-book">Зоркi над вельдами</p>
-                    <span class="price">65700</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">65700</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-4.gif" alt="cover of book">
                     <p class="author">Людмiла Рублеуская</p>
                     <p class="name-of-book">Авантюры Пранцiша</p>
-                    <span class="price">50300</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">50300</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-5.gif" alt="cover of book">
                     <p class="author">Альгерд Бахарэвiч</p>
                     <p class="name-of-book">Шабаны</p>
-                    <span class="price">41700</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">41700</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-6.gif" alt="cover of book">
                     <p class="author">Артур Конан Дойл</p>
                     <p class="name-of-book">Прыгоды Шэрлака</p>
-                    <span class="price">52200</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">52200</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
                 <div class="one-book">
                     <img src="img/book-7.gif" alt="cover of book">
                     <p class="author">Кацярына Ваданосава</p>
                     <p class="name-of-book">Мiфатворчасць</p>
-                    <span class="price">26900</span>
-                    <span class="currency">руб.</span>
-                    <span class="add"><a href="#">У кошык</a></span>
+                    <div class="add-line">
+                        <span class="price">26900</span>
+                        <span class="currency">руб.</span>
+                        <span class="add"><a href="#">У кошык</a></span>
+                    </div>
                 </div>
             </div>
         </div>

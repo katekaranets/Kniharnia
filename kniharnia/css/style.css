@@ -48,7 +48,7 @@
 
     .header-logo img {
         position: relative;
-        top: 9px;
+        top: 11px;
     }
 
     .header-search {
@@ -102,7 +102,7 @@
     }
 
     .header-social-networks {
-        margin: 0 50px 0 14px;
+        margin: 0 20px 0 14px;
     }
 
     .header-social-networks li {
@@ -112,33 +112,48 @@
 
     .header-basket {
         position: relative;
-        top: -16px;
+        top: -4px;
         margin: 0 0 0 8px;
         border: 1px solid #103b1d;
         border-radius: 10px;
         font-size: 16px;
+        width: 220px;
+        text-align: center;
     }
 
     .header-basket-left {
         display: inline-block;
-        padding: 6px 10px 6px 11px;
+        padding: 0px 10px 0px 11px;
+        z-index: 40;
+        width: 90px;
+        letter-spacing: 1px;
     }
 
     .header-basket-right {
         display: inline-block;
-        padding: 12px 22px 12px 23px;
+        width: 59px;
+        padding: 0px 21px 0px 24px;
         background-color: #006633;
         border-color: #103b1d;
         border-radius: 0 7px 7px 0;
+        z-index: 40;
     }
 
     .header-basket-left a{
         text-decoration: none;
         color: black;
+
     }
     .header-basket-right a {
         text-decoration: none;
         color: white;
+        font-size: 18px;
+        line-height: 0;
+    }
+
+    .header-basket-right a > span{
+        font-size: 24px;
+        line-height: 0;
     }
 
     .header-nav {
@@ -198,7 +213,7 @@
 
     .separator {
         clear: both;
-        padding: 9px 0;
+        padding: 8px 0;
     }
 
     .separator-icon {
@@ -220,14 +235,16 @@
     }
 
     .books {
-        margin-bottom: 6px;
+        margin-bottom: 3px;
     }
 
     .one-book {
+        position: relative;
         display: inline-block;
         vertical-align: top;
-        margin: 0 0 10px 31px;
+        margin: 0 0 10px 33px;
         width: 137px;
+        height: 290px;
     }
     .one-book img{
         width: 129px;
@@ -252,14 +269,20 @@
 
     .price {
         font-family: "BlissProBold";
-
+        color: #006633;
+        font-size: 17px;
     }
 
     .currency {
-        font-size: 12px;
+        font-size: 10px;
         font-family: "BlissProLight";
+        color: black;
     }
-
+    .add-line{
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+    }
     .add {
         display: inline-block;
         background-color: #006633;
@@ -289,7 +312,8 @@
     }
 
     .footer-logo > p {
-        margin: -16px 0 14px 0;
+        margin: -13px 0 12px 0;
+        letter-spacing: 0.5px;
     }
 
     .footer-bg {
@@ -384,6 +408,9 @@
         text-align: center;
     }
 
+    .pay > img{
+
+    }
     .pay-logo > div {
         display: inline-block;
     }
