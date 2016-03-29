@@ -256,7 +256,7 @@
         display: none;
     }
     .log-out{
-        /*display: none;*/
+        display: none;
         position: absolute;
         top: 16px;
         left: -1px;
@@ -321,7 +321,6 @@
         padding: 0px 18px 0px 3px;
         z-index: 40;
         width: 50px;
-        letter-spacing: 1px;
         text-align: center;
         font-size: 11px;
     }

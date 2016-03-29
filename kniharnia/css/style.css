@@ -117,7 +117,7 @@
         z-index: 45;
     }
     .search-down{
-        /*display: none;*/
+        display: none;
         position: absolute;
         top: 0;
         left: 0;
@@ -129,29 +129,29 @@
         opacity: 0.97;
         z-index: 30;
     }
-    .search-down ul{
-        display: inline-block;
-        list-style: none;
-        margin: 5px 0 3px 0;
+        .search-down ul{
+            display: inline-block;
+            list-style: none;
+            margin: 5px 0 3px 0;
 
-    }
-    .search-down span{
-        color: #12673e;
-        font-size: 20px;
-        margin-left: 7px;
-    }
+        }
+        .search-down span{
+            color: #12673e;
+            font-size: 20px;
+            margin-left: 7px;
+        }
 
-    .search-down > span{
-        vertical-align: top;
+        .search-down > span{
+            vertical-align: top;
 
-    }
-    .search-down > p > span{
-        margin-right: 18px;
-    }
-    .search-down p:first-child{
-        padding: 0 0 3px 35px;
+        }
+        .search-down > p > span{
+            margin-right: 18px;
+        }
+        .search-down p:first-child{
+            padding: 0 0 3px 35px;
 
-    }
+        }
 
 
 
@@ -171,7 +171,6 @@
         padding: 0px 10px 0px 11px;
         z-index: 40;
         width: 90px;
-        letter-spacing: 1px;
         text-align: center;
     }
 
@@ -218,65 +217,65 @@
         border-top: none;
     }
 
-    .log-in  form{
-        background-color: white;
-        opacity: 0.97;
-        border-radius: 0 0 10px 10px;
-    }
+        .log-in  form{
+            background-color: white;
+            opacity: 0.97;
+            border-radius: 0 0 10px 10px;
+        }
 
-    .log-in  a{
-        text-decoration: none;
-    }
-    .log-in  > form > a, .log-in p{
-        font-size: 11px;
-        margin: 0 0 10px 0;
-        color: #12673e;
-    }
+        .log-in  a{
+            text-decoration: none;
+        }
+        .log-in  > form > a, .log-in p{
+            font-size: 11px;
+            margin: 0 0 10px 0;
+            color: #12673e;
+        }
 
-    .log-in  ul{
-        margin: 0px auto;
-        width: 170px;
-    }
-    .log-in  li{
-        margin: 0px 6px 7px 3px;
-        list-style: none;
-        display: inline-block;
-    }
-    .log-in  li img{
-        width: 27px;;
+        .log-in  ul{
+            margin: 0px auto;
+            width: 170px;
+        }
+        .log-in  li{
+            margin: 0px 6px 7px 3px;
+            list-style: none;
+            display: inline-block;
+        }
+        .log-in  li img{
+            width: 27px;;
 
-    }
-    .log-in hr{
-        width: 90%;
-        margin: 0 auto;
-    }
-    .log-in input{
-        width: 169px;
-        padding: 3px 13px 3px 17px;
-        -moz-box-sizing: border-box;
-        border-radius: 8px;
-        margin: 2px 7px 4px 4px;
-        outline: none;
-        font-size: 15px;
-        border: 1px solid #006633;
-        color: #111;
-    }
+        }
+        .log-in hr{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .log-in input{
+            width: 169px;
+            padding: 3px 13px 3px 17px;
+            -moz-box-sizing: border-box;
+            border-radius: 8px;
+            margin: 2px 7px 4px 4px;
+            outline: none;
+            font-size: 15px;
+            border: 1px solid #006633;
+            color: #111;
+        }
 
-    .enter-button{
-        background-color: #006633;
-        width: 50px;
-        padding: 3px 13px 3px 11px;
-        margin: 2px auto;
+        .enter-button{
+            background-color: #006633;
+            width: 50px;
+            padding: 3px 13px 3px 11px;
+            margin: 2px auto;
 
-    }
+        }
 
-    .enter-button a{
-        color: white;
-        font-size: 13px;
-    }
+        .enter-button a{
+            color: white;
+            font-size: 13px;
+        }
 
     .log-out{
-        /*display: none;*/
+        display: none;
         position: absolute;
         top: 25px;
         left: -1px;
@@ -289,37 +288,37 @@
 
     }
 
-    .log-out > div{
-        background-color: white;
-        opacity: 0.97;
-        border-radius: 0 0 10px 10px;
-        padding: 0 0 7px 6px;
-        line-height: 1.23;
-    }
+        .log-out > div{
+            background-color: white;
+            opacity: 0.97;
+            border-radius: 0 0 10px 10px;
+            padding: 0 0 7px 6px;
+            line-height: 1.23;
+        }
 
-    .log-out > div > div{
-        margin: 0 0 0 11px;
-    }
-    .log-out ul{
-        margin: 0 0 0 10px;
-    }
-    .log-out li{
-        list-style: none;
-    }
+        .log-out > div > div{
+            margin: 0 0 0 11px;
+        }
+        .log-out ul{
+            margin: 0 0 0 10px;
+        }
+        .log-out li{
+            list-style: none;
+        }
 
-    .log-out a, .log-out span{
-        color: #12673e;
-        text-decoration: none;
-        font-size: 18px;
-    }
+        .log-out a, .log-out span{
+            color: #12673e;
+            text-decoration: none;
+            font-size: 18px;
+        }
 
-    .log-out > div > a:first-child{
-        font-size: 12px;
-    }
-    .log-out li a{
-        color: black;
-        font-size: 16px;;
-    }
+        .log-out > div > a:first-child{
+            font-size: 12px;
+        }
+        .log-out li a{
+            color: black;
+            font-size: 16px;;
+        }
 
     .header-nav {
         background-color: #006633;
