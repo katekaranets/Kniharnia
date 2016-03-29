@@ -45,7 +45,7 @@
         position: absolute;
         top: -6px;
         left: 30px;
-        font-size: 11px;
+        font-size: 10px;
         letter-spacing: 1.5px;
         font-family: "BlissProLight";
     }
@@ -53,17 +53,19 @@
     .header-logo img {
         position: relative;
         top: 9px;
-        width: 170px;
+        width: 145px;
     }
 
     .header-search {
+        position: relative;
         margin: 0 0px 0 12px;
     }
 
     .search {
-        width: 120px;
+        width: 168px;
         position: relative;
-        top: -13px;
+        top: -10px;
+        z-index: 40;
     }
 
     .search input {
@@ -72,7 +74,7 @@
 
     .search .input {
         width: 100%;
-        padding: 3px 18px 8px 10px;
+        padding: 0px 18px 5px 7px;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         border-radius: 10px;
@@ -112,25 +114,169 @@
 
     .header-social-networks li {
         display: inline-block;
-        width: 31px;
+        width: 25px;
     }
 
     .header-social-networks img{
-        width: 31px;
+        width: 25px;
     }
-
 
     .search-down{
         display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(100% - 2px);
+        padding: 27px 0 13px 0;
+        border-radius: 10px;
+        border: 1px solid #006633;
+        background-color: white;
+        opacity: 0.97;
+        z-index: 30;
+        font-size: 13px;
+    }
+        .search-down ul{
+            display: inline-block;
+            list-style: none;
+            margin: 5px 0 3px 0;
+
+        }
+        .search-down span{
+            color: #12673e;
+            font-size: 15px;
+            margin-left: 7px;
+        }
+
+        .search-down > span{
+            vertical-align: top;
+
+        }
+        .search-down > p > span{
+            margin-right: 15px;
+        }
+        .search-down p:first-child{
+            padding: 0 0 3px 15px;
+
     }
 
-    .log-in{
-        display: none;
+
+    .log-in {
+        /*display: none;*/
+        width: 100%;
+        position: absolute;
+        top: 9px;
+        left: -1px;
+        padding: 25px 0 0 0;
+        border-radius: 0 0 10px 10px;
+        border: 1px solid #006633;
+        z-index: 30;
+        border-top: none;
+        text-align: center;
+
     }
+
+        .log-in  form{
+            background-color: white;
+            opacity: 0.97;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .log-in  a{
+            text-decoration: none;
+        }
+        .log-in  > form > a, .log-in p{
+            font-size: 11px;
+            margin: 0 0 10px 5px;
+            color: #12673e;
+        }
+
+        .log-in  ul{
+            margin: 0px auto;
+            width: 130px;
+        }
+        .log-in  li{
+            margin: 0px 0px 7px 0px;
+            list-style: none;
+            display: inline-block;
+        }
+        .log-in  li img{
+            width: 27px;;
+
+        }
+        .log-in hr{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .log-in input{
+            width: calc(100% - 40px);
+            padding: 2px 13px 2px 17px;
+            -moz-box-sizing: border-box;
+            border-radius: 8px;
+            margin: 2px 7px 4px 4px;
+            outline: none;
+            font-size: 12px;
+            border: 1px solid #006633;
+            color: #111;
+        }
+
+        .enter-button{
+            background-color: #006633;
+            width: 50px;
+            padding: 3px 8px 3px 8px;
+            margin: 2px auto;
+
+        }
+
+        .enter-button a{
+            color: white;
+            font-size: 13px;
+        }
 
     .log-out{
         display: none;
+        position: absolute;
+        top: 16px;
+        left: -1px;
+        width: 100%;
+        padding: 15px 0 0 0;
+        border-radius: 0 0 10px 10px;
+        border: 1px solid #006633;
+        z-index: 30;
+        border-top: none;
+
     }
+
+        .log-out > div{
+            background-color: white;
+            opacity: 0.97;
+            border-radius: 0 0 10px 10px;
+            padding: 0 0 7px 6px;
+            line-height: 1.23;
+        }
+
+        .log-out > div > div{
+            margin: 0 0 0 11px;
+        }
+        .log-out ul{
+            margin: 0 0 0 10px;
+        }
+        .log-out li{
+            list-style: none;
+        }
+
+        .log-out a, .log-out span{
+            color: #12673e;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .log-out > div > a:first-child{
+            font-size: 12px;
+        }
+        .log-out li a{
+            color: black;
+            font-size: 16px;;
+        }
 
 
 
@@ -200,6 +346,19 @@
         text-shadow: 2px 2px 1px #103b1d;
     }
 
+
+
+
+    .log-in-mobile{
+        display: none;
+    }
+
+    .log-out-mobile{
+        display: none;
+    }
+
+
+
     .banner {
         padding: 5px 0 0 0;
     }
@@ -267,10 +426,12 @@
     }
 
     .one-book {
+        position: relative;
         display: inline-block;
         vertical-align: top;
         margin: 0 0 10px 21px;
         width: 95px;
+        height: 261px;
     }
 
     .one-book img{
@@ -293,14 +454,21 @@
         margin: 0 0 2px 0;
         line-height: 1;
     }
-
     .price {
         font-family: "BlissProBold";
+        color: #006633;
+        font-size: 16px;
     }
 
     .currency {
-        font-size: 12px;
+        font-size: 10px;
         font-family: "BlissProLight";
+        color: black;
+    }
+    .add-line{
+        position: absolute;
+        bottom: -5px;
+        left: 0;
     }
 
     .add {
@@ -318,6 +486,19 @@
         font-family: "BlissProLight";
     }
 
+    .sale{
+        position: absolute;
+        top: 16px;
+        left: -1px;
+        background-color: #006633;
+        opacity: 0.9;
+        padding: 0px 7px 1px 7px;
+    }
+
+    .sale span{
+        color: white;
+        font-size: 13px;
+    }
     .footer-logo {
         text-align: center;
         padding: 8px 0 29px 0;

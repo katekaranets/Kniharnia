@@ -345,6 +345,16 @@
         text-shadow: 2px 2px 1px #103b1d;
     }
 
+
+    .log-in-mobile{
+        display: none;
+    }
+
+    .log-out-mobile{
+        display: none;
+    }
+
+
     .banner {
         padding: 22px 0 0 0;
     }
@@ -465,6 +475,19 @@
         font-family: "BlissProLight";
     }
 
+    .sale{
+        position: absolute;
+        top: 16px;
+        left: -1px;
+        background-color: #006633;
+        opacity: 0.9;
+        padding: 0px 7px 1px 7px;
+    }
+
+    .sale span{
+        color: white;
+        font-size: 13px;
+    }
     .footer-logo {
         text-align: center;
         padding: 8px 0 29px 0;
