@@ -1,0 +1,142 @@
+@font-face {
+    font-family: MyriadProRegular;
+    src: url(font/MyriadPro-Regular.otf);
+}
+@font-face {
+    font-family: MyriadProLight;
+    src: url(font/MyriadPro-Light.otf);
+}
+@font-face {
+    font-family: MyriadProBold;
+    src: url(font/MyriadPro-Bold_0.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #777;
+}
+
+body{
+    background-color: #fbfbfb;
+}
+
+.body{
+    width: 960px;
+    margin: 0 auto;
+    color: #777;
+    font-family: MyriadProRegular;
+}
+
+.header{
+    padding: 39px 0px 0 16px;
+}
+
+    .header > div{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .header .logo{
+        margin: 0 70px 0 0px;
+    }
+
+    .header > .logo > img{
+        width: 162px;
+    }
+
+
+    .header-search{
+        border: 1px solid #777;
+        border-radius: 2px;
+        padding: 5px;
+        background-color: white;
+        margin: 0 17px 0 74px;
+    }
+
+    .header .header-search > div{
+        vertical-align: middle;
+        display: inline-block;
+
+
+    }
+
+
+    .search input{
+        border: none;
+        width: 255px;
+        height: 36px;
+        padding: 0 0 0 35px;
+        background-image: url(sprite.png);
+        background-position: 0px -112px;
+        background-repeat: no-repeat;
+        font-family: MyriadProLight;
+
+    }
+
+
+    .search-categories{
+        border-right: 1px solid #777;
+        border-left: 1px solid #777;
+    }
+    .search-categories > div{
+        margin: 0px 6px 0 7px;
+
+        background-image: url(sprite.png);
+        background-position: 96px -148px;
+        background-repeat: no-repeat;
+    }
+
+    .search-categories > div > input{
+        visibility: hidden;
+        width: 25px;
+        height: 25px;
+
+    }
+
+
+    .search-submit{
+        background-image: url(sprite.png);
+        background-position: 0px -78px;
+        background-repeat: no-repeat;
+        height: 30px;
+    }
+
+    .search-submit > input {
+        visibility: hidden;
+        width: 35px;
+    }
+
+.All_Categories {
+    font-size: 15px;
+    font-family: "MyriadPro";
+    color: rgb(202, 202, 202);
+    line-height: 1.2;
+    text-align: right;
+    -moz-transform: matrix( 1,0,0,0.99999234052387,0,0);
+    -webkit-transform: matrix( 1,0,0,0.99999234052387,0,0);
+    -ms-transform: matrix( 1,0,0,0.99999234052387,0,0);
+    position: absolute;
+    left: 624.668px;
+    top: 54.034px;
+    z-index: 528;
+}
+
+    .users-group{
+        border: 1px solid #777;
+        padding: 14px;
+    }
+
+    .users-group > div{
+        display: inline-block;
+        padding: 0 10px;
+    }
+
+    .sing-up{
+        border-right: 1px solid #777;
+    }
+
