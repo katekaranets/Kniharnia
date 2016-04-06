@@ -51,11 +51,12 @@ body{
 
 
     .header-search{
-        border: 1px solid #777;
+        border: 1px solid #ddd;
         border-radius: 2px;
         padding: 5px;
         background-color: white;
         margin: 0 17px 0 74px;
+        color: rgb(231, 231, 231);
     }
 
     .header .header-search > div{
@@ -70,32 +71,36 @@ body{
         border: none;
         width: 255px;
         height: 36px;
-        padding: 0 0 4px 38px;
+        padding: 7px 0 4px 38px;
         background-image: url(sprite.png);
         background-position: 0px -231px;
         background-repeat: no-repeat;
         font-family: MyriadProLight;
+        font-style: italic;
+        font-size: 15px;
+        color: rgb(231, 231, 231);
 
     }
 
 
     .search-categories{
-        border-right: 1px solid #777;
-        border-left: 1px solid #777;
+        border-right: 1px solid #ddd;
+        border-left: 1px solid #ddd;
     }
     .search-categories > div{
         margin: 0px 6px 0 7px;
         font-size: 14px;
         background-image: url(sprite.png);
-        background-position: 89px -306px;
+        background-position: 98px -310px;
         background-repeat: no-repeat;
+        padding: 0 15px 0 0;
     }
 
     .search-categories > div > input{
         visibility: hidden;
         width: 25px;
         height: 25px;
-
+        margin: -8px 0 0 0;
     }
 
 
@@ -104,6 +109,7 @@ body{
         background-position: 0px -158px;
         background-repeat: no-repeat;
         height: 30px;
+        cursor: pointer;
     }
 
     .search-submit > input {
@@ -115,25 +121,39 @@ body{
 
     .users-group{
         border-radius: 2px;
-        border: 1px solid #777;
-        padding: 14px;
+        border: 1px solid #ddd;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        color: rgb(231, 231, 231);
     }
-
+    .users-group a{
+    color: #999;
+    }
     .users-group > div{
         display: inline-block;
-        padding: 0 10px;
+        background-image: url(sprite.png);
+        background-repeat: no-repeat;
+        padding: 27px 20.5px 2px 15px;
+        cursor:pointer;
+    }
+
+    .log-in{
+        background-position: 16px -78px;
     }
 
     .sing-up{
-        border-right: 1px solid #777;
+        border-right: 1px solid #ddd;
+        background-position: 20px 0;
     }
+
+
 
     
 .header-nav{
-    padding: 32px 0px 0 16px;
+    margin: 32px 0px 0 16px;
     background-image: url(line.gif);
     background-repeat: repeat-x;
-    background-position: 14px 48px;
+    background-position: -2px 17px;
 }
     
     .header-nav > a{
@@ -143,13 +163,44 @@ body{
         padding-top: 47px;
         background-image: url(sprite.png);
         background-repeat: no-repeat;
-        background-position: 41px -391px;
+
+    }
+
+    .header-nav a:hover{
+        background-image: url(sprite-hover.png);
     }
     
     .header-nav a:hover{
         color: #fdcc05;
         text-transform: uppercase;
     }
+
+    .header-nav a:nth-child(1){
+        background-position: 44px -664px;
+    }
+    .header-nav a:nth-child(2){
+        background-position: 42px -741px;
+    }
+    .header-nav a:nth-child(3){
+        background-position: 38px -900px;
+
+    }
+    .header-nav a:nth-child(4){
+        background-position: 39px -820px;
+    }
+    .header-nav a:nth-child(5){
+        background-position: 41px -978px;
+    }
+    .header-nav a:nth-child(6){
+        background-position: 41px -391px;
+    }
+    .header-nav a:nth-child(7){
+        background-position: 41px -480px;
+    }
+    .header-nav a:nth-child(8){
+        background-position: 41px -571px;
+    }
+
 
 
 .main{
@@ -183,12 +234,52 @@ body{
     .topics a{
         width: 76px;
         display: inline-block;
-        border: 1px solid #777;
+        border: 1px solid #ddd;
         padding: 45px 0 8px 0;
         font-size: 13px;
         text-align: center;
         margin: 0 2px 4px 0;
+        background-image: url(images/left-side.png);
+        background-repeat: no-repeat;
+
     }
+
+    .topics a:hover{
+        background-color: #555555;
+        background-image: url(images/left-side-hover.png);
+        color: white;
+    }
+
+.topics a:nth-child(1){
+    background-position: 27px -64px;
+}
+.topics a:nth-child(2){
+    background-position: 27px 15px;
+}
+.topics a:nth-child(3){
+    background-position: 25px -136px;
+}
+.topics a:nth-child(4){
+    background-position: 27px -213px;
+}
+.topics a:nth-child(5){
+    background-position: 27px -289px;
+}
+.topics a:nth-child(6){
+    background-position: 24px -360px;
+}
+.topics a:nth-child(7){
+    background-position: 26px -437px;
+}
+.topics a:nth-child(8){
+    background-position: 25px -513px;
+}
+.topics a:nth-child(9){
+    background-position: 30px -589px;
+}
+.topics a:nth-child(10){
+    background-position: 26px -667px;
+}
 
     .main-content{
         display: inline-block;
@@ -196,41 +287,51 @@ body{
     }
 
     .tags{
-        margin: 0 0 0 13px;
+        padding: 0 0 5px 13px;
     }
 
     .tags a{
         width: 76px;
         display: inline-block;
-        border: 1px solid #777;
+        border: 1px solid #ddd;
         padding: 7px 0 6px 0px;
         font-size: 13px;
         text-align: center;
-        margin: 0 2.5px 5px 1px;
+        margin: 0 2.5px 12px 1px;
     }
 
+    .tags a:hover{
+        background-image: url(tag.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        color: white;text-transform: uppercase;
+        border: 1px solid white;
+        padding: 7px 0 18px 0px;
+        margin: 0 2.5px 0px 1px;
+    }
 
     .main-video{
         position: relative;
-        margin: 13px 0 0 14px;
-        border: 1px solid #777;
+
+        margin: 0px 0 0 14px;
+        border: 1px solid #ddd;
     }
 
     .pagination{
         position: absolute;
         top: 4px;
         right: 0;
-        background-color: black;
+        background-color: #555555;
 
         font-size: 0;
 
     }
     .pagination a{
         color: white;
-        border-right: 1px solid #777;
+        border-right: 1px solid #ddd;
         padding: 5px 8px 5px 8px;
         font-size: 17px;
-        background-color: black;
+        background-color: #555555;
     }
 
     .pagination a:hover{
@@ -244,24 +345,27 @@ body{
     .video-description > div:first-child{
         display: inline-block;
         vertical-align: top;
-        padding: 4px 174px 10px 12px;
-        border-right: 1px solid #777;
+        padding: 4px 170px 10px 12px;
+        border-right: 1px solid #ddd;
+        color: #555;
     }
 
     .video-description > div > p + p{
         font-size: 11.4px;
     }
     .pause{
-        width: 100px;
-
-
+        display: inline-block;
+        width: 50px;
+        background-image: url(images/sprite-2.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
 
     }
 
 
 
 .latest-news{
-    border: 1px solid #777;
+    border: 1px solid #ddd;
     margin: 8px 0 0px 14px;
 
 }
@@ -275,7 +379,7 @@ body{
     .latest-news a{
         font-size: 12px;
         padding: 1px 21px 0 38px;
-        border-right: 1px solid #777;
+        border-right: 1px solid #ddd;
     }
 
 
@@ -315,7 +419,7 @@ body{
     
 .article{
     width: 337px;
-    border: 1px solid #777;
+    border: 1px solid #ddd;
     background-color: white;
     margin: 10px 13px 0 0;
     height: 240px ;
@@ -326,7 +430,7 @@ body{
         margin-right: 0;
     }
     .article-description{
-        border: 1px solid #777;
+        border: 1px solid #ddd;
         background-color: #fbfbfb;
         text-align: center;
         margin: 4px;
@@ -385,10 +489,11 @@ body{
 .main-aside{
         width: 225px;
         vertical-align: top;
+        margin: 0 0 0 17px;
     }
 
 .main-aside h3{
-    border: 1px solid #777;
+    border: 1px solid #ddd;
     font-size: 14px;
     padding: 5.5px 30px;
     margin: 0 0 10px 0;
@@ -396,10 +501,10 @@ body{
 
 
 .news-inner{
-    border: 1px solid #777;
+    border: 1px solid #ddd;
     background-color: white;
     text-align: center;
-    margin: 0 0 10px 0;
+    margin: 0 0 6px 0;
 }
 
 .news-inner > div{
@@ -417,7 +522,7 @@ body{
 
 .popular-video{
     position: relative;
-    border: 1px solid #777;
+    border: 1px solid #ddd;
     text-align: center;
     padding: 5px 0 0 0;
 
@@ -437,7 +542,7 @@ body{
 }
 .aside-buttons > div{
     display: inline-block;
-    border: 1px solid #777;
+    border: 1px solid #ddd;
     padding: 10px 12px;
 }
 

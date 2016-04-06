@@ -1,0 +1,174 @@
+@font-face {
+    font-family: BlissPro;
+    src: url(fonts/BlissPro-Regular.otf);
+}
+@font-face {
+    font-family: BlissProBold;
+    src: url(fonts/BlissPro-Bold.otf);
+}
+@font-face {
+    font-family: BlissProLight;
+    src: url(fonts/BlissPro-Light.otf);
+}
+
+
+
+.path{
+    margin: 15px 0 0 0;
+    font-size: 13px;
+
+
+}
+
+.path p{
+    padding: 5px 0;
+    color: rgb(125, 129, 129);
+    font-family: BlissPro;
+}
+
+.path p span{
+    padding: 0 5px;
+
+
+
+}
+
+.path p span:last-child{
+    color: black;
+}
+
+
+
+
+.other-page-nav {
+
+    padding: 3px 0;
+}
+
+.other-page-nav a {
+    line-height: 1;
+    font-size: 24px;
+    color: #006633;
+    text-decoration: none;
+    font-family: BlissPro;
+    margin: 0 8px 0 0;
+    padding: 0px 0 0px 17px;
+    border-left: 2px solid #103b1d;
+}
+
+.other-page-nav a:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+
+
+
+.archive{
+    border: none;
+    border-collapse: collapse;
+    font-family: BlissPro;
+}
+
+.archive img{
+    width: 50px;
+}
+
+
+.archive td, .archive th {
+    border: none;
+    border-bottom: 2px solid #e7f0eb;
+    padding: 10px 0;
+}
+
+
+.archive tr:last-child td{
+    border: none;
+}
+
+
+th.description{
+    text-align: left;
+
+}
+
+td.date{
+    text-align: center;
+
+
+}
+
+td.delete a {
+    line-height: 1.6;
+    font-size: 18px;
+    color: #006633;
+    text-decoration: none;
+    margin: 0 9px 0 0;
+    padding: 1px 0 1px 17px;
+
+}
+
+.archive th{
+    color: #3f3f3f;
+    font-size: 14px;
+}
+
+.archive td .author{
+    font-size: 16px;
+}
+
+.archive td .name-of-book, .archive td .price{
+    font-size: 22px;
+    color: #3f3f3f;
+}
+
+td.image-of-book{
+    text-align: center;
+}
+
+td.description{
+    padding: 0 5px;
+    
+}
+
+.archive-sale .new-price{
+    color: #297651;
+   font-family: BlissProBold;
+    font-size: 22px;
+}
+
+.description .archive-sale > .price{
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.add-archive div{
+    width: 110px;
+    background-color: #297651;
+    color: white;
+    padding: 5px 14px;
+
+}
+
+.add-archive{
+    width: 170px;
+}
+
+.add-archive div a{
+    font-family: BlissProLight;
+    font-size: 14px;
+}
+
+td.delete{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
