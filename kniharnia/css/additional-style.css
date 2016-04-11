@@ -388,50 +388,39 @@ td.delete{
 
 
 table.cart{
-    margin: 30px 0 35px 0px;
+    margin: 30px 0 17px 0px;
 }
-
-
     .cart{
         border: none;
         border-collapse: collapse;
         font-family: BlissPro;
         margin: 0 0 10px 0;
     }
-
     .cart td, .cart th {
         border: none;
         border-bottom: 2px solid #e7f0eb;
         padding: 9px 0;
     }
-
     .cart tr:last-child td{
         border: none;
     }
-
-
     .cart th{
         text-align: left;
         color: #3f3f3f;
     }
-
     .cart th, .cart td{
         padding: 0 0 5px 10px;
     }
-
     .cart td {
         padding: 9px 0 6px 10px;
     }
-
     .cart td a{
         line-height: 1;
         font-size: 18px;
         color: #006633;
         text-decoration: none;
         margin: 0 9px 0 0;
-
     }
-
     .cart .image-of-book  img{
         width: 50px;
         height: 80px;
@@ -439,11 +428,9 @@ table.cart{
         margin-top: 10px;
         box-shadow: 5px 6px 21px rgba(0,0,0,0.5);
     }
-
     .cart td.date{
         text-align: left;
     }
-
     .cart .description{
         width: 512px;
     }
@@ -451,33 +438,138 @@ table.cart{
         font-size: 22px;
         color: #3f3f3f;
     }
-
     .cart td.image-of-book {
         width: 85px;
     }
-
     .cart .author {
         font-size: 16px;
         margin: -2px 0 9px 0;
     }
-
     .cart .add-line-archive{
         width: 133px;
-
     }
-
     .cart .archive-sale .price{
         font-size: 17px;
         text-decoration: line-through;
         color: #3f3f3f;
     }
+    .cart-for-pay{
+        width: 1030px;
+        padding: 13px 0 51px 0;
+    }
+    .cart-for-pay > a, .card{
+        width: 190px;
+        height: 227px;
+        display: inline-block;
+        text-align: center;
+        margin: 0 6px;
+    }
+
+    .card{
+        padding: 10px 0;
+    }
+
+    .card > div{
+        display: inline-block;
+    }
+
+    .card > .pic-of-pay{
+        border-radius: 8px;
+        border: 1px solid #103b1d;
+        width: 112px;
+        height: 112px;
+        padding: 4px 0 0 0;
+        margin: 0 auto;
+        margin-bottom: 18px;
+        background-color: white;
+    }
+
+    .active-card{
+        border-radius: 15px;
+        border: 2px solid #103b1d;
+        background-color: #e7f0eb;
+    }
+
+    .card p{
+        font-size: 16px;
+        font-family: BlissPro;
+        color: rgb(17, 17, 17);
+        line-height: 1.2;
+    }
+
+    .card p + p + p{
+        font-size: 18px;
+        font-family: "BlissPro";
+        color: rgb(63, 63, 63);
+        font-weight: bold;
+        line-height: 1.333;
+    }
+
+    .card p:last-child{
+        color: #22714b;
+        font-size: 22px;
+    }
+
+    .card p:last-child span{
+        font-size: 18px;
+    }
+
+    .buy{
+        overflow: hidden;
+    }
+
+    .buy > div{
+        display: inline-block;
+        vertical-align: top;
+        padding: 12px 0 0 0;
+    }
+    
+
+    .amount span, .summary{
+        font-size: 22px;
+        font-family: "BlissPro";
+        color: rgb(63, 63, 63);
+    }
+    .amount a{
+        text-decoration: none;
+        font-size: 28px;
+        color: #22714b;
+    }
+    .coupon{
+        float: right;
+    }
+    .coupon p{
+        display: inline-block;
+        color: #22714b;
+        font-size: 24px;
+    }
+    .coupon p span{
+        font-size: 18px;
+    }
+    .coupon input{
+        padding: 10px 7px;
+        margin: 0px 39px 0 14px;
+    }
+    div.buy-button{
+        height: 50px;
+    }
+    a.buy-button{
+        display: block;
+        float: right;
+        text-decoration: none;
+        background-color: #22714b;
+        color: white;
+        border-radius: 7px;
+        padding: 5px 50px;
+    }
 
 
 
 
 
-@media screen and (max-width: 1179px) and (min-width: 768px){
-    table.history{
+
+@media screen and (max-width: 1179px) and (min-width: 768px) {
+    table.history {
         font-size: 14px;
         margin: 10px 0 35px 0px;
     }
@@ -485,19 +577,52 @@ table.cart{
         .history td a {
             font-size: 14px;
         }
-        .cancel, .delete-history{
+
+        .cancel, .delete-history {
             width: 55px;
         }
-        .pay-history{
+
+        .pay-history {
             width: 45px;
         }
 
-        .history th, .history td{
+        .history th, .history td {
             padding: 0 0 0 5px;
         }
 
+    .cart {
 
+    }
+
+        .cart-for-pay > a, .card {
+            width: 135px;
+        }
+
+        .card > .pic-of-pay {
+            width: 85px;
+            height: 85px;
+        }
+
+        .pic-of-pay img {
+            width: 70px;
+            margin: 16px 0 0 0;
+        }
+
+        .amount span, .summary {
+            font-size: 20px;
+        }
+        .card p:last-child{
+            font-size: 18px;
+        }
+
+        .coupon p{
+            font-size: 20px;
+        }
+        .coupon p span{
+            font-size: 16px;
+        }
 }
+
 
 @media screen and (max-width: 767px) and (min-width: 600px) {
     .other-page-nav a {
@@ -553,6 +678,51 @@ table.cart{
         .options span{
             font-size: 16px;
         }
+
+    .cart {
+
+    }
+
+        .cart-for-pay > a, .card {
+            width: 112px;
+            height: 217px;
+            margin: 0 2px;
+        }
+        .card > .pic-of-pay {
+            width: 85px;
+            height: 85px;
+        }
+        .pic-of-pay img {
+            width: 70px;
+            margin: 16px 0 0 0;
+        }
+        .amount span, .summary {
+            font-size: 18px;
+        }
+        .card p:last-child{
+            font-size: 16px;
+        }
+        .coupon input{
+             padding: 10px 35px;
+             margin: 0px 10px 0 14px;
+         }
+        .coupon p{
+            font-size: 18px;
+        }
+
+        .coupon p span{
+            font-size: 16px;
+        }
+
+        .card p + p + p{
+            font-size: 15px;
+        }
+
+        .card p{
+            font-size: 14px;
+        }
+
+
 
 }
 
@@ -694,7 +864,68 @@ table.cart{
             font-size: 14px;
         }
 
-}
+
+    .cart {
+
+    }
+
+        .cart-for-pay > a, .card {
+            width: 400px;
+            height: 90px;
+            margin: 4px 2px;
+        }
+
+        .card > .pic-of-pay {
+            width: 85px;
+            height: 85px;
+        }
+        .pic-of-pay img {
+            width: 70px;
+            margin: 16px 0 0 0;
+        }
+        .amount span, .summary {
+            font-size: 18px;
+        }
+        .card p:last-child{
+            font-size: 16px;
+        }
+        .coupon input{
+            padding: 3px 58px;
+            margin: 0px 10px 0 14px;
+        }
+        .coupon p{
+            font-size: 18px;
+        }
+
+        .coupon p span{
+            font-size: 16px;
+        }
+
+        .card p + p + p{
+            font-size: 15px;
+        }
+
+        .card p{
+            font-size: 14px;
+        }
+        div.buy-button {
+            padding: 9px 13px 0 0;
+        }
+
+        .cart .add-line-archive {
+            width: 85px;
+        }
+
+        th.date, td.date{
+            display: none;
+        }
+
+
+
+
+
+
+    }
 
 
 
@@ -855,6 +1086,63 @@ table.cart{
         .options span{
             font-size: 14px;
         }
+
+
+    .cart {
+
+    }
+
+        .cart-for-pay > a, .card {
+            width: 300px;
+            height: 90px;
+            margin: 4px 2px;
+        }
+
+        .card > .pic-of-pay {
+            width: 85px;
+            height: 85px;
+        }
+        .pic-of-pay img {
+            width: 70px;
+            margin: 16px 0 0 0;
+        }
+        .amount span, .summary {
+            font-size: 18px;
+        }
+        .card p:last-child{
+            font-size: 16px;
+        }
+        .coupon input{
+            padding: 3px 19px;
+            margin: 0px 10px 0 14px;
+        }
+        .coupon p{
+            font-size: 18px;
+        }
+
+        .coupon p span{
+            font-size: 16px;
+        }
+
+        .card p + p + p{
+            font-size: 15px;
+        }
+
+        .card p{
+            font-size: 14px;
+        }
+        div.buy-button {
+            padding: 9px 13px 0 0;
+        }
+
+        .cart .add-line-archive {
+            width: 85px;
+        }
+
+        th.date, td.date{
+            display: none;
+        }
+
 
 
 }
