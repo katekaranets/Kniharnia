@@ -1,0 +1,243 @@
+@font-face {
+    font-family: BlissPro;
+    src: url(fonts/BlissPro-Regular.otf);
+}
+@font-face {
+    font-family: BlissProBold;
+    src: url(fonts/BlissPro-Bold.otf);
+}
+@font-face {
+    font-family: BlissProLight;
+    src: url(fonts/BlissPro-Light.otf);
+}
+
+a{
+    text-decoration: none;
+    color: #006633;
+}
+
+
+div.left-side{
+    width: 833px;
+}
+
+.left-side, .right-side{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left-side > div{
+    display: inline-block;
+}
+.page-book{
+    vertical-align: top;
+    font-family: BlissPro;
+}
+    .page-book > div{
+        display: inline-block;
+        vertical-align: top;
+    }
+.page-img-of-book{
+    position: relative;
+    width: 275px;
+    margin: 0 10px 0 0;
+
+}
+
+    .page-img-of-book img{
+        width: 275px;
+        margin: 7px 0 0 0;
+    }
+
+
+    .page-img-of-book ul li{
+        display: inline-block;
+        list-style: none;
+    }
+
+    .page-img-of-book ul li > a{
+        border: 1px solid gray;
+        color: black;
+        padding: 2px 5px 2px 19px;
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    .page-img-of-book span{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    .page-img-of-book .percents{
+        background-color: rgb(158, 11, 15);
+        opacity: 0.89;
+        top: 27px;
+        padding: 0 36px;
+        left: -4px;
+        line-height: 1.8;
+
+    }
+
+    .page-img-of-book .new-book{
+        background-color: rgb(18, 103, 62);
+        opacity: 0.89;
+        top: 77px;
+        padding: 0 25px;
+        left: -4px;
+        line-height: 1.8;
+
+    }
+
+    .page-img-of-book .unavailable{
+        position: absolute;
+        color: white;
+        background-color: rgb(18, 103, 62);
+        opacity: 0.89;
+        padding: 0 37px;
+        font-size: 18px;
+        top: 225px;
+        left: 53px;
+        width: 100px;
+        height: 45px;
+        text-align: center;
+    }
+
+
+.about-book{
+    width: 530px;
+    margin: 0 0 0 10px;
+    position: relative;
+}
+
+    .about-book h3{
+        font-size: 24px;
+        color: rgb(18, 103, 62);
+        font-weight: lighter;
+
+    }
+
+    .about-book h2{
+        font-size: 48px;
+        font-family: BlissProLight;
+        font-weight: lighter;
+        margin: 0 0 18px 0;
+    }
+
+    .about-book > a{
+        border: 2px solid #006633;
+        color: black;
+        padding: 2px 5px;
+        margin: 5px 0;
+    }
+    .about-book p{
+        margin: 4px 0 0 0;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .about-book p > span{
+        font-weight: lighter;
+        padding: 0 10px;
+    }
+
+    .about-book > p{
+        margin: 30px 0 10px 0;
+        line-height: 1.333;
+        width: 512px;
+        word-break: keep-all;
+        font-weight: normal;
+        font-size: 18px;
+    }
+
+    .about-book > p > a{
+        font-size: 14px;
+    }
+
+.language{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+    .language > a{
+        border: 2px solid #006633;
+        color: black;
+        padding: 2px 7px;
+
+    }
+
+    .language > a.active-language{
+        background-color: #006633;
+        color: white;
+    }
+
+
+.right-side{
+    width: 285px;
+    margin: 0 0 0 55px;
+
+}
+    
+    
+    .right-side > *{
+        width: 240px;
+        display: block;
+        text-align: center;
+        margin: 15px auto;
+    }
+    
+    .right-side > .separator{
+        width: 100%;
+    }
+
+
+
+.right-side > p > span{
+        text-decoration: line-through;
+        float: left;
+    }
+
+    .right-side > p{
+        font-size: 20px;
+        text-align: right;
+        margin: 0 auto;
+    }
+    .right-side > a{
+        background-color: #006633;
+        color: white;
+        text-transform: uppercase;
+        margin: 5px auto;
+        padding: 10px 0;
+        border-radius: 10px;
+    }
+
+    .right-side > .sum{
+        border: 2px solid #006633;
+        border-radius: 10px;
+        padding: 30px 0;
+    }
+
+    .right-side > .sum > p{
+        color: #006633;
+        font-weight: bold;
+
+    }
+    .right-side > .sum > p:first-child{
+        font-size: 36px;
+
+    }
+
+
+
+
+
+
+
+div.widget-vk{
+    vertical-align: bottom;
+}
+
+
