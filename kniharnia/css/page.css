@@ -296,6 +296,7 @@ div.widget-vk{
 
     .comments .tools > div div{
         background-repeat: no-repeat;
+        cursor: pointer;
 
     }
     .comments .tools > div:last-child div:nth-child(1){
@@ -413,3 +414,102 @@ div.widget-vk{
 
 
 
+
+@media screen and (max-width: 1179px) and (min-width: 768px) {
+
+    
+    div.left-side{
+        width: 560px;
+
+    }
+
+.right-side{
+    width: 185px;
+    margin: 0 0 0 15px;
+}
+    .right-side > * {
+        width: 165px;
+    }
+
+
+
+
+    .page-img-of-book img,  .page-img-of-book {
+        width: 185px;
+    }
+    .page-img-of-book .unavailable {
+        padding: 0 20px;
+        top: 157px;
+        left: 22px;
+    }
+
+    .page-img-of-book ul{
+        display: none;
+    }
+
+    .about-book {
+        width: 350px;
+    }
+
+    .about-book h3 {
+        font-size: 20px;
+    }
+
+    .about-book h2 {
+        font-size: 24px;
+    }
+
+    .about-book > p {
+        margin: 10px 0 10px 0;
+        width: 350px;
+        font-size: 14px;
+    }
+    .about-book  p {
+        font-size: 14px;
+    }
+
+     .left-side .books .one-book{
+         margin:  0 30px 10px 28px;
+     }
+
+    .comments textarea {
+        width: 315px;
+    }
+
+    .comments .captcha, .comments .send {
+        width: 179px;
+    }
+
+    div.captcha > div {
+        width: 164px;
+    }
+
+    .captcha input {
+        width: 161px;
+        height: 18px;
+        font-size: 14px;
+    }
+
+    .captcha label {
+        width: 163px;
+    }
+
+    .comments .send a {
+        padding: 0px 37px;
+        margin: 0;
+    }
+    .comments .send input {
+        width: 14px;
+        margin: 0;
+    }
+
+    .comments .send label {
+        font-size: 14px;
+        margin: 0;
+    }
+
+
+    div.widget-vk {
+        bottom: -415px;
+    }
+}
