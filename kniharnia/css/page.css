@@ -32,6 +32,7 @@ div.left-side{
 .page-book{
     vertical-align: top;
     font-family: BlissPro;
+    margin-bottom: 40px;
 }
     .page-book > div{
         display: inline-block;
@@ -178,7 +179,7 @@ div.left-side{
 .right-side{
     width: 285px;
     margin: 0 0 0 55px;
-
+    position: relative;
 }
     
     
@@ -231,13 +232,184 @@ div.left-side{
     }
 
 
+.logo-page{
+    overflow: hidden;
+    margin: 0 auto;
+}
 
+    .logo-page a{
+        vertical-align: top;
+        margin: 5px 0;
+    }
 
+    .logo-page a:first-child{
+        float: left;
+    }
+
+    .logo-page a:last-child{
+        height: 18px;
+        width: 18px;
+        float: right;
+        border: 1px solid gray;
+        border-radius: 50%;
+    }
 
 
 
 div.widget-vk{
-    vertical-align: bottom;
+    position: absolute;
+    bottom: -528px;
+    left: 23px;
 }
+
+
+.comments{
+    padding: 0 0 40px 0;
+}
+
+    .comments form{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .comments .tools{
+        background: #f8f8f8;
+        padding: 5px 0 0 0;
+        border: 1px solid gray;
+        border-bottom: none;
+    }
+    .comments .tools > div{
+        display: inline-block;
+        margin: 0 0 0 15px;
+
+    }
+
+    .comments .tools  div > div{
+        display: inline-block;
+    }
+    .comments .tools input{
+        width: 17px;
+        height: 17px;
+        margin: 0 2px;
+        visibility: hidden;
+    }
+
+
+    .comments .tools > div div{
+        background-repeat: no-repeat;
+
+    }
+    .comments .tools > div:last-child div:nth-child(1){
+       background-image: url(smile_03.jpg);
+    }
+    .comments .tools > div:last-child div:nth-child(2){
+        background-image: url(smile_05.jpg);
+    }
+    .comments .tools > div:last-child div:nth-child(3){
+        background-image: url(smile_07.jpg);
+    }
+    .comments .tools > div:last-child div:nth-child(4){
+        background-image: url(smile_09.jpg);
+    }
+    .comments .tools > div:first-child div:nth-child(1){
+        background-image: url(tools_16.jpg);
+        background-position: 0 4px;
+    }
+    .comments .tools > div:first-child div:nth-child(2){
+        background-image: url(tools_18.jpg);
+        background-position: 0 4px;
+    }
+    .comments .tools > div:first-child div:nth-child(3){
+        background-image: url(tools_20.jpg);
+        background-position: 0 4px;
+        margin: 0 0 0 4px;
+    }
+    .comments .tools > div:first-child div:nth-child(4){
+        background-image: url(tools_22.jpg);
+        background-position: 0 4px;
+    }
+    .comments .tools > div:first-child div:nth-child(5){
+        background-image: url(tools_03.jpg);
+    }
+    .comments .tools > div:first-child div:nth-child(6){
+        background-image: url(tools_05.jpg);
+    }
+    .comments .tools > div:first-child div:nth-child(7){
+        background-image: url(tools_07.jpg);
+    }
+    .comments .tools > div:first-child div:nth-child(8){
+        background-image: url(tools_09.jpg);
+    }
+    .comments .tools > div:first-child div:nth-child(9){
+        background-image: url(tools_11.jpg);
+    }
+    .comments .tools > div:first-child div:nth-child(10){
+        background-image: url(tools_13.gif);
+    }
+
+
+
+
+
+.comments textarea{
+        width: 517px;
+        height: 95px;
+        resize: none;
+        padding: 10px 30px;
+        font-size: 16px;
+        color: black;
+
+    }
+
+    div.captcha > div{
+        width: 180px;
+        height: 40px;
+        border: 1px solid black;
+    }
+
+    .captcha label{
+        width: 105px;
+        display: inline-block;
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .captcha input{
+        width: 140px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .comments .captcha, .comments .send{
+        width: 250px;
+        overflow: hidden;
+
+    }
+
+    .comments .captcha > *, .comments .send > *{
+        float: right;
+        margin: 0 0 5px 0;
+    }
+
+    .comments .send{
+        vertical-align: super;
+    }
+
+    .comments .send a{
+        border: 1px solid #006633;
+        border-radius: 10px;
+        padding: 11px 28px;
+        margin-top: 3px;
+    }
+
+    .comments .send label{
+        font-family: BlissPro;
+        font-size: 18px;
+        margin: 9px 5px 0 2px;
+
+    }
+    .comments .send input{
+        width: 20px;
+        height: 20px;
+        margin-top: 9px;
+    }
+
 
 
