@@ -513,3 +513,484 @@ div.widget-vk{
         bottom: -415px;
     }
 }
+
+
+
+
+
+@media screen and (max-width: 767px) and (min-width: 600px) {
+    div.left-side{
+        width: 590px;
+    }
+
+    .main{
+        position: relative;
+    }
+
+
+    .right-side {
+        width: 140px;
+        margin: 0 0 0 15px;
+        position: absolute;
+        top: 228px;
+        left: -16px;
+    }
+    .right-side > p {
+        display: none;
+    }
+    .right-side > .sum {
+        padding: 10px 0;
+
+    }
+    .right-side > .sum > p:first-child {
+        font-size: 26px;
+
+    }
+
+    .right-side > * {
+        width: 140px;
+        margin: 5px 0;
+
+    }
+
+    .right-side > a {
+        font-size: 14px;
+        padding: 3px 0;
+
+    }
+
+    .page-img-of-book img,  .page-img-of-book {
+        width: 140px;
+        margin: 0 85px 0 0px;
+    }
+
+    .page-img-of-book .unavailable {
+        padding: 0 5px;
+        top: 127px;
+        left: 16px;
+        font-size: 14px;
+    }
+
+    .page-img-of-book span {
+        font-size: 14px;
+
+    }
+
+    .page-img-of-book .percents {
+        padding: 0 26px;
+    }
+
+    .page-img-of-book .new-book {
+        padding: 0 15px;
+    }
+
+    .page-img-of-book ul{
+        display: none;
+    }
+
+    .about-book {
+        width: 350px;
+    }
+
+    .about-book h3 {
+        font-size: 20px;
+    }
+
+    .about-book h2 {
+        font-size: 24px;
+    }
+
+    .about-book > p {
+        margin: 10px 0 10px 0;
+        width: 350px;
+        font-size: 14px;
+    }
+    .about-book  p {
+        font-size: 14px;
+    }
+
+    .left-side .books .one-book{
+        margin:  0 9px 10px 9px;
+    }
+    
+    .comments{
+        padding: 0 15px;
+    }
+
+    .comments textarea {
+        width: 315px;
+    }
+
+    .comments .captcha, .comments .send {
+        width: 179px;
+    }
+
+    div.captcha > div {
+        width: 164px;
+    }
+
+    .captcha input {
+        width: 161px;
+        height: 18px;
+        font-size: 14px;
+    }
+
+    .captcha label {
+        width: 163px;
+    }
+
+    .comments .send a {
+        padding: 0px 37px;
+        margin: 0;
+    }
+    .comments .send input {
+        width: 14px;
+        margin: 0;
+    }
+
+    .comments .send label {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .right-side .separator{
+        display: none;
+    }
+
+
+    .logo-page{
+        display: none;
+    }
+
+    div.widget-vk {
+        bottom: -415px;
+        display: none;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 599px) and (min-width: 400px) {
+    div.left-side {
+        width: 400px;
+    }
+
+    .main{
+        position: relative;
+    }
+
+
+    .right-side {
+        width: 140px;
+        margin: 0 0 0 15px;
+        position: absolute;
+        top: 228px;
+        left: -16px;
+    }
+
+    .right-side > p {
+        display: none;
+    }
+
+    .right-side > .sum {
+        padding: 10px 0;
+
+    }
+
+    .right-side > .sum > p:first-child {
+        font-size: 26px;
+
+    }
+
+    .right-side > * {
+        width: 140px;
+        margin: 5px 0;
+
+    }
+
+    .right-side > a {
+        font-size: 14px;
+        padding: 3px 0;
+    }
+
+    .page-img-of-book img, .page-img-of-book {
+        width: 140px;
+        margin: 0 0px 0 0px;
+    }
+
+    .page-img-of-book .unavailable {
+        padding: 0 5px;
+        top: 127px;
+        left: 16px;
+        font-size: 14px;
+    }
+
+    .page-img-of-book span {
+        font-size: 14px;
+
+    }
+
+    .page-img-of-book .percents {
+        padding: 0 26px;
+    }
+
+    .page-img-of-book .new-book {
+        padding: 0 15px;
+    }
+
+    .page-img-of-book ul {
+        display: none;
+    }
+
+    .about-book {
+        width: 245px;
+    }
+
+    .about-book h3 {
+        font-size: 20px;
+    }
+
+    .about-book h2 {
+        font-size: 24px;
+    }
+
+    .language{
+        display: none;
+    }
+    .about-book > p {
+        margin: 10px 0 10px 0;
+        width: 250px;
+        font-size: 14px;
+    }
+
+    .about-book p {
+        font-size: 14px;
+    }
+
+    .left-side .books .one-book {
+        margin: 0 10px 10px 10px;
+    }
+
+    .comments {
+        padding: 0 15px;
+    }
+
+    .comments textarea {
+        width: 315px;
+    }
+
+    .comments .captcha, .comments .send {
+        width: 179px;
+    }
+
+    div.captcha > div {
+        width: 164px;
+    }
+
+    .captcha input {
+        width: 161px;
+        height: 18px;
+        font-size: 14px;
+    }
+
+    .captcha label {
+        width: 163px;
+    }
+
+    .comments .send a {
+        padding: 0px 37px;
+        margin: 0;
+    }
+
+    .comments .send input {
+        width: 14px;
+        margin: 0;
+    }
+
+    .comments .send label {
+        font-size: 14px;
+        margin: 0;
+    }
+    .comments > form:last-child{
+        float: right;
+    }
+
+    .right-side .separator {
+        display: none;
+    }
+
+    .logo-page {
+        display: none;
+    }
+
+    div.widget-vk {
+        bottom: -415px;
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width: 399px) {
+    div.left-side {
+        width: 320px;
+    }
+
+    .main{
+        position: relative;
+    }
+
+
+    .right-side {
+        width: 140px;
+        margin: 0 0 0 15px;
+        position: absolute;
+        top: 235px;
+        left: -16px;
+    }
+
+    .right-side > p {
+        display: none;
+    }
+
+    .right-side > .sum {
+        padding: 10px 0;
+
+    }
+
+    .right-side > .sum > p:first-child {
+        font-size: 26px;
+
+    }
+
+    .right-side > * {
+        width: 140px;
+        margin: 5px 0;
+
+    }
+
+    .right-side > a {
+        font-size: 14px;
+        padding: 3px 0;
+    }
+
+    .page-img-of-book img, .page-img-of-book {
+        width: 140px;
+        margin: 0 0px 0 0px;
+    }
+
+    .page-img-of-book .unavailable {
+        padding: 0 5px;
+        top: 127px;
+        left: 16px;
+        font-size: 14px;
+    }
+
+    .page-img-of-book span {
+        font-size: 14px;
+
+    }
+
+    .page-img-of-book .percents {
+        padding: 0 26px;
+    }
+
+    .page-img-of-book .new-book {
+        padding: 0 15px;
+    }
+
+    .page-img-of-book ul {
+        display: none;
+    }
+
+    .about-book {
+        width: 165px;
+    }
+
+    .about-book h3 {
+        font-size: 16px;
+    }
+
+    .about-book h2 {
+        font-size: 20px;
+    }
+
+    .language{
+        display: none;
+    }
+    .about-book > p {
+        margin: 10px 0 10px 0;
+        width: 165px;
+        font-size: 14px;
+    }
+
+    .about-book p {
+        font-size: 14px;
+    }
+
+    .left-side .books .one-book {
+        margin: 0 9px 10px 9px;
+    }
+
+    .comments {
+        padding: 0 15px;
+    }
+
+    .comments textarea {
+        width: 240px;
+    }
+
+    .comments .captcha, .comments .send {
+        width: 179px;
+    }
+
+    div.captcha > div {
+        width: 164px;
+    }
+
+    .captcha input {
+        width: 161px;
+        height: 18px;
+        font-size: 14px;
+    }
+
+    .captcha label {
+        width: 163px;
+    }
+
+    .comments .send a {
+        padding: 0px 37px;
+        margin: 0;
+    }
+
+    .comments .send input {
+        width: 14px;
+        margin: 0;
+    }
+
+    .comments .send label {
+        font-size: 14px;
+        margin: 0;
+    }
+    .comments > form:last-child{
+        float: right;
+    }
+
+    .right-side .separator {
+        display: none;
+    }
+
+    .logo-page {
+        display: none;
+    }
+
+    div.widget-vk {
+        bottom: -415px;
+        display: none;
+    }
+
+}
