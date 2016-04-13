@@ -283,7 +283,14 @@
         width: 182px;
 
     }
-
+    .header-mail{
+        position: absolute;
+        bottom: -15px;
+        left: 55px;
+        color: #103b1d;
+        font-family: BlissProLight;
+        font-size: 12px;
+    }
     .header-basket-left {
         display: inline-block;
         padding: 0px 7px 0px 7px;
@@ -306,8 +313,16 @@
     .header-basket-left a{
         text-decoration: none;
         color: black;
+
+    }
+    .header-basket-left > a:last-child{
+        vertical-align: super;
     }
 
+    .header-basket-left a.hidden{
+        display:none;
+
+    }
     .header-basket-right a {
         text-decoration: none;
         color: white;
@@ -444,7 +459,7 @@
 
     .price {
         font-family: "BlissProBold";
-        color: #006633;
+        color: black;
         font-size: 16px;
     }
 

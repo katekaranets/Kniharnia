@@ -50,7 +50,7 @@ div.separator-other{
 
 .other-page-nav a {
     line-height: 1;
-    font-size: 24px;
+    font-size: 20px;
     color: #006633;
     text-decoration: none;
     font-family: BlissPro;
@@ -235,7 +235,9 @@ td.delete{
 }
 
 
-
+a.active-link{
+    color: black;
+}
 .history{
     margin: 10px 0 35px 0px;
 }
@@ -346,7 +348,7 @@ td.delete{
     }
 
     .options p{
-        font-size: 24px;
+        font-size: 20px;
         font-family: BlissPro;
         color: rgb(18, 103, 62);
         text-align: left;
@@ -552,6 +554,7 @@ table.cart{
     }
     div.buy-button{
         height: 50px;
+        padding: 20px 0px 3px 0;
     }
     a.buy-button{
         display: block;
