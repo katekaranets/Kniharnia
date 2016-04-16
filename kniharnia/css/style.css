@@ -338,11 +338,13 @@
         }
 
     .header-nav {
+        position: relative;
         background-color: #006633;
         padding: 5px 0;
+
     }
 
-    .header-nav a {
+    .header-nav > nav > a {
         line-height: 1.6;
         font-size: 20px;
         color: white;
@@ -353,6 +355,40 @@
         border-left: 3px solid #103b1d;
     }
 
+    .catalog-menu  {
+        /*visibility: hidden;*/
+        position: absolute;
+        padding: 20px 0 10px 16px;
+        background-color: #006633;
+        width: 1157px;
+        z-index: 500;
+    }
+    .catalog-menu > ul > li {
+        display: inline-block;
+        vertical-align: top;
+        padding: 0 15px 0 10px;
+    }
+    .catalog-menu > ul > li:first-child {
+        border-left: none;
+        padding-left: 0;
+    }
+    .catalog-column > ul {
+        padding: 8px 0;
+    }
+    .catalog-column > ul > li {
+        text-decoration: none;
+        list-style: none;
+        line-height: 1.5;
+    }
+    .catalog-column > ul > li > a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        line-height: 1;
+    }
+    .catalog-column > ul > li:hover > a {
+        text-decoration: underline;
+    }
     .header-nav a:first-child {
         border-left: none;
     }

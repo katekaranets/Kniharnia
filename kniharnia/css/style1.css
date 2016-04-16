@@ -331,9 +331,10 @@
     .header-nav {
         background-color: #006633;
         padding: 5px 0;
+        position: relative;
     }
 
-    .header-nav a {
+    .header-nav > nav > a {
         line-height: 1.6;
         font-size: 20px;
         color: white;
@@ -342,6 +343,41 @@
         margin: 0 9px 0 0;
         padding: 1px 0 1px 17px;
         border-left: 3px solid #103b1d;
+    }
+
+    .catalog-menu  {
+        /*visibility: hidden;*/
+        position: absolute;
+        padding: 20px 0 10px 16px;
+        background-color: #006633;
+        width: 750px;
+        z-index: 500;
+    }
+    .catalog-menu > ul > li {
+        width: 320px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .catalog-menu > ul > li:first-child {
+        border-left: none;
+
+    }
+    .catalog-column > ul {
+        padding: 8px 0;
+    }
+    .catalog-column > ul > li {
+        text-decoration: none;
+        list-style: none;
+        line-height: 1.5;
+    }
+    .catalog-column > ul > li > a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        line-height: 1;
+    }
+    .catalog-column > ul > li:hover > a {
+        text-decoration: underline;
     }
 
     .header-nav a:first-child {
