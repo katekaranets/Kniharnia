@@ -40,9 +40,9 @@
     .header-logo span {
         position: absolute;
         top: 8px;
-        left: 46px;
+        left: 47px;
         font-size: 14px;
-        letter-spacing: 1.2px;
+        letter-spacing: 1.19px;
         font-family: "BlissProLight";
     }
 
@@ -58,7 +58,7 @@
     .search {
         width: 470px;
         position: relative;
-        top: -16px;
+        top: -13px;
     }
 
     .search input {
@@ -67,7 +67,7 @@
 
     .search .input {
         width: 100%;
-        padding: 6px 18px 11px 35px;
+        padding: 8px 18px 9px 35px;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         border-radius: 10px;

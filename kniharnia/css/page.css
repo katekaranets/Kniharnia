@@ -246,13 +246,7 @@ div.left-side{
         float: left;
     }
 
-    .logo-page a:last-child{
-        height: 18px;
-        width: 18px;
-        float: right;
-        border: 1px solid gray;
-        border-radius: 50%;
-    }
+
 
 
 

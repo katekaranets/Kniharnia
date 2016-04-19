@@ -138,6 +138,9 @@ td.delete a {
     letter-spacing: 2.5px;
 }
 
+.archive td .price, .shell td .price {
+    letter-spacing: 0;
+}
 td.image-of-book{
     text-align: center;
     width: 100px;
@@ -165,22 +168,28 @@ td.description{
    font-family: BlissProBold;
     font-size: 22px;
     margin: 0 0 7px 0;
-    letter-spacing: 2.5px;
+    letter-spacing: 0;
 }
 
 .description .archive-sale > .price{
     font-size: 17px;
     margin: 0px -5px 0 14px;
-    letter-spacing: 1.5px;
+    letter-spacing: 0px;
     text-decoration: line-through;
 }
 
-.add-archive div, .make-format div{
-    width: 127px;
-    background-color: #297651;
-    color: white;
-    padding: 4px 8px 7px 19px;
+.add-archive div, .make-format div:last-child a{
+     width: 127px;
+     background-color: #297651;
+     color: white;
+     padding: 4px 8px 7px 19px;
+    text-decoration: none;
 
+}
+.make-format div:last-child a{
+    padding: 3px 6px 3px 6px;
+    text-align: center;
+    margin: 0px 3px;
 }
 
 .add-archive{
@@ -215,9 +224,7 @@ td.delete{
 }
 
 
-.make-format span{
-    margin: 0 0 0px -37px;
-}
+
 
 
 .shell td.date{
@@ -367,8 +374,9 @@ a.active-link{
     .save-button a{
         font-family: BlissProBold;
         text-decoration: none;
-        color: rgb(18, 103, 62);
-        border: 1px solid #40624a;
+        background-color: #006633;
+        border: 1px solid #006633;
+        color: white;
         padding: 7px 25px 8px 18px;
         border-radius: 10px;
     }
@@ -397,6 +405,18 @@ table.cart{
         border-collapse: collapse;
         font-family: BlissPro;
         margin: 0 0 10px 0;
+    }
+    table.cart  td{
+        position: relative;
+        overflow: hidden;
+    }
+    .active-book{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1000px;
+        background-image: url(white.png);
     }
     .cart td, .cart th {
         border: none;
@@ -433,6 +453,9 @@ table.cart{
     .cart td.date{
         text-align: left;
     }
+
+
+
     .cart .description{
         width: 512px;
     }
