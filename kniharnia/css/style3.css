@@ -521,6 +521,8 @@
     .name-of-book {
         margin: 0 0 2px 0;
         line-height: 1;
+        height: 32px;
+        overflow: hidden;
     }
 
     .price {

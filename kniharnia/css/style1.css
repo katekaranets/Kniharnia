@@ -460,7 +460,7 @@
 
     .books {
         margin-bottom: 6px;
-        max-height: 300px;
+        max-height: 320px;
         overflow: hidden;
     }
 
@@ -469,7 +469,7 @@
         vertical-align: top;
         margin: 0 0 10px 31px;
         width: 124px;
-        height: 290px;
+        height: 310px;
         position: relative;
     }
     .one-book img{
@@ -486,11 +486,15 @@
         color: #006633;
         font-family: "BlissPro";
         margin: 10px 0 2px 0;
+        height: 28px;
     }
+
 
     .name-of-book {
         margin: 0 0 2px 0;
         line-height: 1;
+        height: 32px;
+        overflow: hidden;
     }
 
     .price {

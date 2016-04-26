@@ -324,7 +324,7 @@ a.active-link{
     margin: 15px 0 0 0;
     text-align: center;
 }   
-    .options > div{
+    .options > form{
         margin: 25px auto;
         vertical-align: top;
         width: 750px;
@@ -344,7 +344,7 @@ a.active-link{
     }
 
 
-    .personal-data-options form input, .password-options form input {
+    .personal-data-options  input, .password-options  input {
         width: 276px;
         font-family: BlissPro;
         margin: 12px 0 -2px 14px;
@@ -352,6 +352,7 @@ a.active-link{
         padding: 9px 0px 8px 10px;
         color: rgb(17, 17, 17);
         border: 1px solid #30553b;
+        border-radius: 2px;
     }
 
     .options p{
@@ -454,6 +455,9 @@ table.cart{
         text-align: left;
     }
 
+.cart-price > .archive-sale > .new-price-block{
+    display: block;
+}
 
 
     .cart .description{
@@ -778,6 +782,7 @@ table.cart{
     .archive-sale .new-price {
         font-size: 15px;
     }
+
 
     .description .archive-sale > .price {
         font-size: 14px;

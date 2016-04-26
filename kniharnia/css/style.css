@@ -471,7 +471,7 @@
         vertical-align: top;
         margin: 0 0 10px 33px;
         width: 137px;
-        height: 290px;
+        height: 305px;
     }
     .one-book img{
         width: 129px;
@@ -483,15 +483,19 @@
     }
 
     .author {
-        font-size: 12px;
+        font-size: 14px;
+        height: 32px;
         color: #006633;
         font-family: "BlissPro";
         margin: 10px 0 2px 0;
     }
 
+
     .name-of-book {
         margin: 0 0 2px 0;
         line-height: 1;
+        height: 32px;
+        overflow: hidden;
     }
 
     .price {
