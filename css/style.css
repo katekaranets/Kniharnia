@@ -44,11 +44,26 @@
         font-size: 14px;
         letter-spacing: 1.19px;
         font-family: "BlissProLight";
+
+
+
+
+        position: absolute;
+        top: 51px;
+        left: 47px;
+        font-size: 10px;
+        letter-spacing: 2.75px;
+        font-family: "BlissProLight";
     }
 
     .header-logo img {
         position: relative;
         top: 11px;
+
+
+
+
+        top: 8px;
     }
 
     .header-search {
@@ -168,11 +183,11 @@
 
     .header-mail{
         position: absolute;
-        bottom: -15px;
-        left: 70px;
-        color: #103b1d;
+        bottom: -18px;
+        right: 0;
+        color: black;
         font-family: BlissProLight;
-        font-size: 12px;
+        font-size: 13px;
     }
     .header-basket-left {
         display: inline-block;
@@ -330,7 +345,7 @@
         }
 
         .log-out > div > a:first-child{
-            font-size: 12px;
+            font-size: 13px;
         }
         .log-out li a{
             color: black;
@@ -515,7 +530,7 @@
     .add {
         display: inline-block;
         background-color: #006633;
-        padding: 1px 6px 1px 8px;
+        padding: 0px 6px 2px 8px;
     }
 
     .add:hover {
@@ -678,4 +693,5 @@
         display: none;
     }
 }
+
 
